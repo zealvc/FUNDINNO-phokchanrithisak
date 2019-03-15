@@ -93,7 +93,25 @@ $reg-font-size: 0.846rem;
 }
 .bottom-navbar-container__right{
     @extend .top-navbar-container__right;
-    
+}
+
+
+.carousel-section{
+  width: 100%;
+  background-color: rgb(248, 206, 18)
+}
+.main-carousel-slideshow{
+  height: 504px;
+  width: 100%;
+  margin: 0px;
+}
+.carouselItem1-container,
+.mySlides,
+.fade{
+  width: 100%;
+  height: 504px;
+  background-image: url("/rsc/img/carouselItem1-background.webp");
+  margin: 0px;
 }
 
 
