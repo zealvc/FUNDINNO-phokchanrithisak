@@ -15,6 +15,7 @@
 </head>
 <body>
     <div class="main">
+        <!--Main HEADER-->
         <div class="main-header">
             <header>
                 <div class="top-navbar navbar">
@@ -45,23 +46,113 @@
                 </div>
             </header>
         </div>
+        <!--Main BODY-->
         <div class="main-body">
-            <div class="container">
-                <div class="rotator-wrap">
-                  <ul class="rotator">
-                      <li> <div><img src="http://lorempixel.com/200/200/cats/1" alt="" /></div> </li>
-                      <li> <div><img src="http://lorempixel.com/200/200/cats/2" alt="" /></div> </li>
-                      <li> <div><img src="http://lorempixel.com/200/200/cats/3" alt="" /></div> </li>
-                      <li> <div><img src="http://lorempixel.com/200/200/cats/4" alt="" /></div> </li>
-                    
-                      <li> <div><img src="http://lorempixel.com/200/200/cats/5" alt="" /></div> </li>
-                      <li> <div><img src="http://lorempixel.com/200/200/cats/6" alt="" /></div> </li>
-                      <li> <div><img src="http://lorempixel.com/200/200/cats/7" alt="" /></div> </li>
-                      <li> <div><img src="http://lorempixel.com/200/200/cats/8" alt="" /></div> </li>
-                  </ul>
-                </div>
+            <div class="slideshow-container main-carousel-slideshow">
+                    <div class="mySlides fade carouselItem1-container">
+                        <div class="carouselItem1-container-wrap">
+                            <div class="carouselItem1-container-text">
+                                <div class="carouselItem1-container-text_subtitle">
+                                    最先端べンチャー企業の株主になれる
+                                </div>
+                                <h1>
+                                    国内取引量NO.1 FUNDINNO
+                                </h1>
+                            </div>
+                            <div class="carouselItem1-container-btn">
+                                <a class="carousel-btn" href="#users/sign_up/新規登録はこちら">
+                                    <span>新規登録はこちら</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" mySlides fade carouselItem2-container">
+                        <div class="carouselItem2-container-wrap">
+                            <div class="carouselItem2-container-division">
+                                <div class="carouselItem2-division__position_left"></div>
+                                <div class="carouselItem2-division-position-right">
+                                    <div class="carouselItem2-division-position-right-container">
+                                        <h5>
+                                            <a href="/projects/63">日本中のカフェを定額制に！大手と個人経営の一杯の価格差解決を目指すスタートアップ</a>
+                                        </h5>
+                                        <div class="carouselItem2-position-right-body">
+                                                <div class="carouselItem2-position-right-body__title">
+                                                        このプロジェクトは現在情報の開示をおこなっておりますが、お申込みいただくことはできません。お申込みの開始は2019年3月14日 20:00の予定です。
+                                                </div>
+                                        </div>
+                                        <div class="carouselItem2-btn">
+                                                <a class="btn" href="#projects/63/もっとみる">もっとみる</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade carouselItem3-container">
+                            <div class="carouselItem3-container-wrap">
+                                    <div class="carouselItem2-container-division">
+                                        <div class="carouselItem3-division__position_left"></div>
+                                        <div class="carouselItem2-division-position-right">
+                                            <div class="carouselItem3-division-position-right-container">
+                                               <div class="carouselItem3-container-wrap-text">
+                                                   <div class="carouselItem3-text__title">
+                                                       <h2>代表者インタビュー</h2>
+                                                   </div>
+                                                   <div class="carouselItem3-text_description">
+                                                        オフィスのゴミ箱をメディア化し、機密処理業務のコストを無料に！「TAAS株式会社」~調達後の動向~
+                                                      </div>
+                                                   <div class="carouselItem3-container-small">
+                                                       <div class="carouselItem3-container-small__left">
+                                                            <img width="40" class="mr-10" src="https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/company/image/365/thumb_c80bd601-7f7c-4ed2-a984-d1d68d098a12.jpg">
+                                                       </div>
+                                                       <div class="carouselItem3-container-small__right">
+                                                            TAAS株式会社
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                               <div class="carouselItem3-btn">
+                                                    <a class="btn" href="#case_stuides/19/もっとみる">もっとみる</a>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="mySlides fade carouselItem4-container"></div>
+            </div>
+            <br>
+            <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            </div>
         </div>
-        <div class="main-footer"></div>
+        <!--Main FOOTER-->
+        <div class="main-footer">
+        </div>
+        <!--Javascript for Carousel Autoplay Only-->
+        <script>
+                var slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+        </script>
     </div>
 </body>
 </html>
