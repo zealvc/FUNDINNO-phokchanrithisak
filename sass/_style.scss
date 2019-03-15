@@ -12,15 +12,21 @@ $desktop: "(min-width: 1366.1px)";
 $color-heading: #283C50;
 $color-white: #fff;
 $color-black: #000;
-$primary: #ffbb00;
+$color-primary: #00A0E9;
 /*element*/
 $reg-font-size: 0.846rem;
 $carouselItem1-bg-img:"/rsc/img/carouselItem1-background.webp"; 
 $carouselItem2-bg-img:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/24/0944e70a-7bc0-40ae-987f-254e2d57835c.jpg"; 
 $carouselItem3-bg-img:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/22/58e5a628-2482-47f6-8250-7cd3f51d1cfb.jpg"; 
 $carouselItem4-bg-img:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/15/3685b823-ebb1-4838-8242-fe490ef2402b.jpg"; 
+$horizontally-center: 0 auto;
+
 /*blocks*/
 /*CSS blocks*/
+a{
+  text-decoration: none;
+}
+
 .navbar {
     width: 100%;
     font-size: $reg-font-size;
@@ -32,6 +38,9 @@ $carouselItem4-bg-img:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uplo
     align-items: center;
     justify-content:space-between;
     padding: 0.25rem 1rem;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
 }
 .top-navbar{
 
@@ -114,24 +123,66 @@ $carouselItem4-bg-img:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uplo
   height: 100% !important;
   margin: 0px;
   background-image: url($img-url);
-  background-repeat: no-repeat;
 }
 .carouselItem1-container
 {
   @include full-screen-size($carouselItem1-bg-img);
+  color: #fff;
 }
 .carouselItem2-container{
   @include full-screen-size($carouselItem2-bg-img);
+  color: #fff;
 }
 .carouselItem3-container{
   @include full-screen-size($carouselItem3-bg-img);
-  
 }
 .carouselItem4-container{
   @include full-screen-size($carouselItem4-bg-img);
-  
- 
+  color: #fff;
 }
+
+.carouselItem1-container-wrap{
+  margin: auto 50px;
+  text-align: center !important;
+  
+}
+.carouselItem1-container-text_subtitle{
+  font-size: 1.23rem;
+    padding-top: 20px;
+    margin-bottom: 6px;
+}
+.carouselItem1-container-text_title{
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  line-height: 60px;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+.carouselItem1-container-btn{
+  margin: $horizontally-center;
+}
+.btn-primary-inv {
+
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3), 0 1px 1px rgba(0,0,0,0.075);
+  width: 266.56px;
+  height: 49px;
+  color: $color-primary;
+
+}
+.btn-lg, .btn-group-lg, .btn {
+    padding: 16px 0px;  
+    font-size: 1.076rem;
+    line-height: 1.23rem;
+    border-radius: 0.3rem;
+    word-wrap: break-word;
+  }
+.carouselItem1-container-btn span{
+  color: $color-primary;
+}
+
 
 
 

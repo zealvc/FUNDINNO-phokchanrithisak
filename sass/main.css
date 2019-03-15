@@ -59,6 +59,10 @@ table {
 }
 
 /* Slideshow container */
+.mySlides {
+  display: none;
+}
+
 .slideshow-container {
   max-width: 100%;
   position: relative;
@@ -87,14 +91,13 @@ table {
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  margin: 0px 8px;
+  background-color: #00A0E9;
+  border-radius: 50px;
   display: inline-block;
-  -webkit-transition: background-color 0.6s ease;
-  transition: background-color 0.6s ease;
+  padding: 0;
 }
 
 .active {
@@ -141,6 +144,10 @@ table {
 /*element*/
 /*blocks*/
 /*CSS blocks*/
+a {
+  text-decoration: none;
+}
+
 .navbar, .navbar-background-white {
   width: 100%;
   font-size: 0.846rem;
@@ -159,6 +166,10 @@ table {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0.25rem 1rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
 }
 
 .top-navbar-container {
@@ -244,7 +255,7 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("/rsc/img/carouselItem1-background.webp");
-  background-repeat: no-repeat;
+  color: #fff;
 }
 
 .carouselItem2-container {
@@ -252,7 +263,7 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/24/0944e70a-7bc0-40ae-987f-254e2d57835c.jpg");
-  background-repeat: no-repeat;
+  color: #fff;
 }
 
 .carouselItem3-container {
@@ -260,7 +271,6 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/22/58e5a628-2482-47f6-8250-7cd3f51d1cfb.jpg");
-  background-repeat: no-repeat;
 }
 
 .carouselItem4-container {
@@ -268,7 +278,53 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/15/3685b823-ebb1-4838-8242-fe490ef2402b.jpg");
-  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.carouselItem1-container-wrap {
+  margin: auto 50px;
+  text-align: center !important;
+}
+
+.carouselItem1-container-text_subtitle {
+  font-size: 1.23rem;
+  padding-top: 20px;
+  margin-bottom: 6px;
+}
+
+.carouselItem1-container-text_title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  line-height: 60px;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+
+.carouselItem1-container-btn {
+  margin: 0 auto;
+}
+
+.btn-primary-inv {
+  background-color: #fff;
+  border-color: #fff;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.075);
+  width: 266.56px;
+  height: 49px;
+  color: #00A0E9;
+}
+
+.btn-lg, .btn-group-lg, .btn {
+  padding: 16px 0px;
+  font-size: 1.076rem;
+  line-height: 1.23rem;
+  border-radius: 0.3rem;
+  word-wrap: break-word;
+}
+
+.carouselItem1-container-btn span {
+  color: #00A0E9;
 }
 
 /*partial SaSS*/
@@ -332,6 +388,10 @@ table {
 }
 
 /* Slideshow container */
+.mySlides {
+  display: none;
+}
+
 .slideshow-container {
   max-width: 100%;
   position: relative;
@@ -360,14 +420,13 @@ table {
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  margin: 0px 8px;
+  background-color: #00A0E9;
+  border-radius: 50px;
   display: inline-block;
-  -webkit-transition: background-color 0.6s ease;
-  transition: background-color 0.6s ease;
+  padding: 0;
 }
 
 .active {
@@ -414,6 +473,10 @@ table {
 /*element*/
 /*blocks*/
 /*CSS blocks*/
+a {
+  text-decoration: none;
+}
+
 .navbar, .navbar-background-white {
   width: 100%;
   font-size: 0.846rem;
@@ -432,6 +495,10 @@ table {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0.25rem 1rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
 }
 
 .top-navbar-container {
@@ -517,7 +584,7 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("/rsc/img/carouselItem1-background.webp");
-  background-repeat: no-repeat;
+  color: #fff;
 }
 
 .carouselItem2-container {
@@ -525,7 +592,7 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/24/0944e70a-7bc0-40ae-987f-254e2d57835c.jpg");
-  background-repeat: no-repeat;
+  color: #fff;
 }
 
 .carouselItem3-container {
@@ -533,7 +600,6 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/22/58e5a628-2482-47f6-8250-7cd3f51d1cfb.jpg");
-  background-repeat: no-repeat;
 }
 
 .carouselItem4-container {
@@ -541,7 +607,53 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/15/3685b823-ebb1-4838-8242-fe490ef2402b.jpg");
-  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.carouselItem1-container-wrap {
+  margin: auto 50px;
+  text-align: center !important;
+}
+
+.carouselItem1-container-text_subtitle {
+  font-size: 1.23rem;
+  padding-top: 20px;
+  margin-bottom: 6px;
+}
+
+.carouselItem1-container-text_title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  line-height: 60px;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+
+.carouselItem1-container-btn {
+  margin: 0 auto;
+}
+
+.btn-primary-inv {
+  background-color: #fff;
+  border-color: #fff;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.075);
+  width: 266.56px;
+  height: 49px;
+  color: #00A0E9;
+}
+
+.btn-lg, .btn-group-lg, .btn {
+  padding: 16px 0px;
+  font-size: 1.076rem;
+  line-height: 1.23rem;
+  border-radius: 0.3rem;
+  word-wrap: break-word;
+}
+
+.carouselItem1-container-btn span {
+  color: #00A0E9;
 }
 
 /*partial SaSS*/
@@ -605,6 +717,10 @@ table {
 }
 
 /* Slideshow container */
+.mySlides {
+  display: none;
+}
+
 .slideshow-container {
   max-width: 100%;
   position: relative;
@@ -633,14 +749,13 @@ table {
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  margin: 0px 8px;
+  background-color: #00A0E9;
+  border-radius: 50px;
   display: inline-block;
-  -webkit-transition: background-color 0.6s ease;
-  transition: background-color 0.6s ease;
+  padding: 0;
 }
 
 .active {
@@ -687,6 +802,10 @@ table {
 /*element*/
 /*blocks*/
 /*CSS blocks*/
+a {
+  text-decoration: none;
+}
+
 .navbar, .navbar-background-white {
   width: 100%;
   font-size: 0.846rem;
@@ -705,6 +824,10 @@ table {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0.25rem 1rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
 }
 
 .top-navbar-container {
@@ -790,7 +913,7 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("/rsc/img/carouselItem1-background.webp");
-  background-repeat: no-repeat;
+  color: #fff;
 }
 
 .carouselItem2-container {
@@ -798,7 +921,7 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/24/0944e70a-7bc0-40ae-987f-254e2d57835c.jpg");
-  background-repeat: no-repeat;
+  color: #fff;
 }
 
 .carouselItem3-container {
@@ -806,7 +929,6 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/22/58e5a628-2482-47f6-8250-7cd3f51d1cfb.jpg");
-  background-repeat: no-repeat;
 }
 
 .carouselItem4-container {
@@ -814,7 +936,53 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/15/3685b823-ebb1-4838-8242-fe490ef2402b.jpg");
-  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.carouselItem1-container-wrap {
+  margin: auto 50px;
+  text-align: center !important;
+}
+
+.carouselItem1-container-text_subtitle {
+  font-size: 1.23rem;
+  padding-top: 20px;
+  margin-bottom: 6px;
+}
+
+.carouselItem1-container-text_title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  line-height: 60px;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+
+.carouselItem1-container-btn {
+  margin: 0 auto;
+}
+
+.btn-primary-inv {
+  background-color: #fff;
+  border-color: #fff;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.075);
+  width: 266.56px;
+  height: 49px;
+  color: #00A0E9;
+}
+
+.btn-lg, .btn-group-lg, .btn {
+  padding: 16px 0px;
+  font-size: 1.076rem;
+  line-height: 1.23rem;
+  border-radius: 0.3rem;
+  word-wrap: break-word;
+}
+
+.carouselItem1-container-btn span {
+  color: #00A0E9;
 }
 
 /*partial SaSS*/
@@ -878,6 +1046,10 @@ table {
 }
 
 /* Slideshow container */
+.mySlides {
+  display: none;
+}
+
 .slideshow-container {
   max-width: 100%;
   position: relative;
@@ -906,14 +1078,13 @@ table {
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  margin: 0px 8px;
+  background-color: #00A0E9;
+  border-radius: 50px;
   display: inline-block;
-  -webkit-transition: background-color 0.6s ease;
-  transition: background-color 0.6s ease;
+  padding: 0;
 }
 
 .active {
@@ -960,6 +1131,10 @@ table {
 /*element*/
 /*blocks*/
 /*CSS blocks*/
+a {
+  text-decoration: none;
+}
+
 .navbar, .navbar-background-white {
   width: 100%;
   font-size: 0.846rem;
@@ -978,6 +1153,10 @@ table {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0.25rem 1rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
 }
 
 .top-navbar-container {
@@ -1063,7 +1242,7 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("/rsc/img/carouselItem1-background.webp");
-  background-repeat: no-repeat;
+  color: #fff;
 }
 
 .carouselItem2-container {
@@ -1071,7 +1250,7 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/24/0944e70a-7bc0-40ae-987f-254e2d57835c.jpg");
-  background-repeat: no-repeat;
+  color: #fff;
 }
 
 .carouselItem3-container {
@@ -1079,7 +1258,6 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/22/58e5a628-2482-47f6-8250-7cd3f51d1cfb.jpg");
-  background-repeat: no-repeat;
 }
 
 .carouselItem4-container {
@@ -1087,6 +1265,52 @@ table {
   height: 100% !important;
   margin: 0px;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/15/3685b823-ebb1-4838-8242-fe490ef2402b.jpg");
-  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.carouselItem1-container-wrap {
+  margin: auto 50px;
+  text-align: center !important;
+}
+
+.carouselItem1-container-text_subtitle {
+  font-size: 1.23rem;
+  padding-top: 20px;
+  margin-bottom: 6px;
+}
+
+.carouselItem1-container-text_title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  line-height: 60px;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+
+.carouselItem1-container-btn {
+  margin: 0 auto;
+}
+
+.btn-primary-inv {
+  background-color: #fff;
+  border-color: #fff;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.075);
+  width: 266.56px;
+  height: 49px;
+  color: #00A0E9;
+}
+
+.btn-lg, .btn-group-lg, .btn {
+  padding: 16px 0px;
+  font-size: 1.076rem;
+  line-height: 1.23rem;
+  border-radius: 0.3rem;
+  word-wrap: break-word;
+}
+
+.carouselItem1-container-btn span {
+  color: #00A0E9;
 }
 /*# sourceMappingURL=main.css.map */
