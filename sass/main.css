@@ -58,17 +58,9 @@ table {
           box-sizing: border-box;
 }
 
-.mySlides {
-  display: none;
-}
-
-img {
-  vertical-align: middle;
-}
-
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -237,24 +229,46 @@ img {
   background-color: #fff;
 }
 
-.carousel-section {
+.carousel-section, slideshow-container {
   width: 100%;
   background-color: #f8ce12;
+  margin: 0;
 }
 
 .main-carousel-slideshow {
   height: 504px;
-  width: 100%;
-  margin: 0px;
 }
 
-.carouselItem1-container,
-.mySlides,
-.fade {
-  width: 100%;
-  height: 504px;
-  background-image: url("/rsc/img/carouselItem1-background.webp");
+.carouselItem1-container {
+  width: 100% !important;
+  height: 100% !important;
   margin: 0px;
+  background-image: url("/rsc/img/carouselItem1-background.webp");
+  background-repeat: no-repeat;
+}
+
+.carouselItem2-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/24/0944e70a-7bc0-40ae-987f-254e2d57835c.jpg");
+  background-repeat: no-repeat;
+}
+
+.carouselItem3-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/22/58e5a628-2482-47f6-8250-7cd3f51d1cfb.jpg");
+  background-repeat: no-repeat;
+}
+
+.carouselItem4-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/15/3685b823-ebb1-4838-8242-fe490ef2402b.jpg");
+  background-repeat: no-repeat;
 }
 
 /*partial SaSS*/
@@ -317,17 +331,9 @@ table {
           box-sizing: border-box;
 }
 
-.mySlides {
-  display: none;
-}
-
-img {
-  vertical-align: middle;
-}
-
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -496,24 +502,46 @@ img {
   background-color: #fff;
 }
 
-.carousel-section {
+.carousel-section, slideshow-container {
   width: 100%;
   background-color: #f8ce12;
+  margin: 0;
 }
 
 .main-carousel-slideshow {
   height: 504px;
-  width: 100%;
-  margin: 0px;
 }
 
-.carouselItem1-container,
-.mySlides,
-.fade {
-  width: 100%;
-  height: 504px;
-  background-image: url("/rsc/img/carouselItem1-background.webp");
+.carouselItem1-container {
+  width: 100% !important;
+  height: 100% !important;
   margin: 0px;
+  background-image: url("/rsc/img/carouselItem1-background.webp");
+  background-repeat: no-repeat;
+}
+
+.carouselItem2-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/24/0944e70a-7bc0-40ae-987f-254e2d57835c.jpg");
+  background-repeat: no-repeat;
+}
+
+.carouselItem3-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/22/58e5a628-2482-47f6-8250-7cd3f51d1cfb.jpg");
+  background-repeat: no-repeat;
+}
+
+.carouselItem4-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/15/3685b823-ebb1-4838-8242-fe490ef2402b.jpg");
+  background-repeat: no-repeat;
 }
 
 /*partial SaSS*/
@@ -576,17 +604,9 @@ table {
           box-sizing: border-box;
 }
 
-.mySlides {
-  display: none;
-}
-
-img {
-  vertical-align: middle;
-}
-
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -755,24 +775,46 @@ img {
   background-color: #fff;
 }
 
-.carousel-section {
+.carousel-section, slideshow-container {
   width: 100%;
   background-color: #f8ce12;
+  margin: 0;
 }
 
 .main-carousel-slideshow {
   height: 504px;
-  width: 100%;
-  margin: 0px;
 }
 
-.carouselItem1-container,
-.mySlides,
-.fade {
-  width: 100%;
-  height: 504px;
-  background-image: url("/rsc/img/carouselItem1-background.webp");
+.carouselItem1-container {
+  width: 100% !important;
+  height: 100% !important;
   margin: 0px;
+  background-image: url("/rsc/img/carouselItem1-background.webp");
+  background-repeat: no-repeat;
+}
+
+.carouselItem2-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/24/0944e70a-7bc0-40ae-987f-254e2d57835c.jpg");
+  background-repeat: no-repeat;
+}
+
+.carouselItem3-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/22/58e5a628-2482-47f6-8250-7cd3f51d1cfb.jpg");
+  background-repeat: no-repeat;
+}
+
+.carouselItem4-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/15/3685b823-ebb1-4838-8242-fe490ef2402b.jpg");
+  background-repeat: no-repeat;
 }
 
 /*partial SaSS*/
@@ -835,17 +877,9 @@ table {
           box-sizing: border-box;
 }
 
-.mySlides {
-  display: none;
-}
-
-img {
-  vertical-align: middle;
-}
-
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -1014,23 +1048,45 @@ img {
   background-color: #fff;
 }
 
-.carousel-section {
+.carousel-section, slideshow-container {
   width: 100%;
   background-color: #f8ce12;
+  margin: 0;
 }
 
 .main-carousel-slideshow {
   height: 504px;
-  width: 100%;
-  margin: 0px;
 }
 
-.carouselItem1-container,
-.mySlides,
-.fade {
-  width: 100%;
-  height: 504px;
-  background-image: url("/rsc/img/carouselItem1-background.webp");
+.carouselItem1-container {
+  width: 100% !important;
+  height: 100% !important;
   margin: 0px;
+  background-image: url("/rsc/img/carouselItem1-background.webp");
+  background-repeat: no-repeat;
+}
+
+.carouselItem2-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/24/0944e70a-7bc0-40ae-987f-254e2d57835c.jpg");
+  background-repeat: no-repeat;
+}
+
+.carouselItem3-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/22/58e5a628-2482-47f6-8250-7cd3f51d1cfb.jpg");
+  background-repeat: no-repeat;
+}
+
+.carouselItem4-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/15/3685b823-ebb1-4838-8242-fe490ef2402b.jpg");
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=main.css.map */
