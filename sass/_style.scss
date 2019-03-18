@@ -1,0 +1,190 @@
+/*partial SaSS*/
+@import 'css_reset';
+@import 'carousel';
+/*> Media query responsive*/
+$phone: "(min-width: 120px) and (max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 1366px)";
+$xl-tablet: "(min-width: 991.98px) and (max-width: 1366px)";
+$desktop: "(min-width: 1366.1px)";
+/*> SaSS*/
+/*variable*/
+/*color*/
+$color-heading: #283C50;
+$color-white: #fff;
+$color-black: #000;
+$color-primary: #00A0E9;
+/*element*/
+$reg-font-size: 0.846rem;
+$carouselItem1-bg-img:"/rsc/img/carouselItem1-background.webp"; 
+$carouselItem2-bg-img:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/24/0944e70a-7bc0-40ae-987f-254e2d57835c.jpg"; 
+$carouselItem3-bg-img:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/22/58e5a628-2482-47f6-8250-7cd3f51d1cfb.jpg"; 
+$carouselItem4-bg-img:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/15/3685b823-ebb1-4838-8242-fe490ef2402b.jpg"; 
+$horizontally-center: 0 auto;
+
+/*blocks*/
+/*CSS blocks*/
+a{
+  text-decoration: none;
+}
+
+.navbar {
+    width: 100%;
+    font-size: $reg-font-size;
+    background: $color-heading;
+    padding: 0.25rem 1rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0.25rem 1rem;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.top-navbar{
+
+
+}
+.top-navbar-container{
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: inline-flex;
+
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+
+    width: 1325px;
+    height: 43.44px;
+    max-width: 1140px;
+    /*right gap*/
+    justify-content: space-between !important;
+}
+.top-navbar__left{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    max-width: 540px;
+    
+}
+
+/*topnav-left*/
+.top-navbar-container__left{
+    color: #fff;
+}
+
+/*topnav-right*/
+.top-navbar-container__right{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    list-style: none;
+    flex-direction: row;
+    
+}
+.nav-link{
+
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;  
+    background-color: transparent;
+    color: #fff;
+    font-size: $reg-font-size;
+    padding: 6px;
+}
+.nav-link-modified{
+    @extend .nav-link;
+    color: $color-black;
+    white-space: nowrap;
+}
+.navbar-background-white{
+    @extend .navbar;
+    background-color: $color-white;
+}
+.bottom-navbar-container__right{
+    @extend .top-navbar-container__right;
+}
+
+
+.carousel-section, slideshow-container{
+  width: 100%;
+  background-color: rgb(248, 206, 18);
+  margin:0;
+}
+.main-carousel-slideshow{
+  height: 504px;
+
+}
+@mixin full-screen-size($img-url){
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url($img-url);
+}
+.carouselItem1-container
+{
+  @include full-screen-size($carouselItem1-bg-img);
+  color: #fff;
+}
+.carouselItem2-container{
+  @include full-screen-size($carouselItem2-bg-img);
+  color: #fff;
+}
+.carouselItem3-container{
+  @include full-screen-size($carouselItem3-bg-img);
+}
+.carouselItem4-container{
+  @include full-screen-size($carouselItem4-bg-img);
+  color: #fff;
+}
+
+.carouselItem1-container-wrap{
+  margin: auto 50px;
+  text-align: center !important;
+  
+}
+.carouselItem1-container-text_subtitle{
+  font-size: 1.23rem;
+    padding-top: 20px;
+    margin-bottom: 6px;
+}
+.carouselItem1-container-text_title{
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  line-height: 60px;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+.carouselItem1-container-btn{
+  margin: $horizontally-center;
+}
+.btn-primary-inv {
+
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3), 0 1px 1px rgba(0,0,0,0.075);
+  width: 266.56px;
+  height: 49px;
+  color: $color-primary;
+
+}
+.btn-lg, .btn-group-lg, .btn {
+    padding: 16px 0px;  
+    font-size: 1.076rem;
+    line-height: 1.23rem;
+    border-radius: 0.3rem;
+    word-wrap: break-word;
+  }
+.carouselItem1-container-btn span{
+  color: $color-primary;
+}
+
+
+
+
+
+

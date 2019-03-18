@@ -1,1 +1,0 @@
-# FUNDINNO-phokchanrithisak
