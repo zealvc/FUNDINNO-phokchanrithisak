@@ -282,8 +282,11 @@ a {
 }
 
 .carouselItem1-container-wrap {
-  margin: auto 50px;
   text-align: center !important;
+}
+
+.carouselItem1-container-wrap-vertically-center {
+  padding: 120px 0;
 }
 
 .carouselItem1-container-text_subtitle {
@@ -611,8 +614,11 @@ a {
 }
 
 .carouselItem1-container-wrap {
-  margin: auto 50px;
   text-align: center !important;
+}
+
+.carouselItem1-container-wrap-vertically-center {
+  padding: 120px 0;
 }
 
 .carouselItem1-container-text_subtitle {
@@ -940,8 +946,11 @@ a {
 }
 
 .carouselItem1-container-wrap {
-  margin: auto 50px;
   text-align: center !important;
+}
+
+.carouselItem1-container-wrap-vertically-center {
+  padding: 120px 0;
 }
 
 .carouselItem1-container-text_subtitle {
@@ -1269,8 +1278,11 @@ a {
 }
 
 .carouselItem1-container-wrap {
-  margin: auto 50px;
   text-align: center !important;
+}
+
+.carouselItem1-container-wrap-vertically-center {
+  padding: 120px 0;
 }
 
 .carouselItem1-container-text_subtitle {

@@ -1,0 +1,332 @@
+/*partial SaSS*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Slideshow container */
+.mySlides {
+  display: none;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 11px;
+  width: 11px;
+  margin: 0px 8px;
+  background-color: #00A0E9;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 0;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+/*> Media query responsive*/
+/*> SaSS*/
+/*variable*/
+/*color*/
+/*element*/
+/*blocks*/
+/*CSS blocks*/
+a {
+  text-decoration: none;
+}
+
+.navbar, .navbar-background-white {
+  width: 100%;
+  font-size: 0.846rem;
+  background: #283C50;
+  padding: 0.25rem 1rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.25rem 1rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.top-navbar-container {
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1325px;
+  height: 43.44px;
+  max-width: 1140px;
+  /*right gap*/
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.top-navbar__left {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  max-width: 540px;
+}
+
+/*topnav-left*/
+.top-navbar-container__left {
+  color: #fff;
+}
+
+/*topnav-right*/
+.top-navbar-container__right, .bottom-navbar-container__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 0;
+  list-style: none;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+.nav-link, .nav-link-modified {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 0.846rem;
+  padding: 6px;
+}
+
+.nav-link-modified {
+  color: #000;
+  white-space: nowrap;
+}
+
+.navbar-background-white {
+  background-color: #fff;
+}
+
+.carousel-section, slideshow-container {
+  width: 100%;
+  background-color: #f8ce12;
+  margin: 0;
+}
+
+.main-carousel-slideshow {
+  height: 504px;
+}
+
+.carouselItem1-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("/rsc/img/carouselItem1-background.webp");
+  color: #fff;
+}
+
+.carouselItem2-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/24/0944e70a-7bc0-40ae-987f-254e2d57835c.jpg");
+  color: #fff;
+}
+
+.carouselItem3-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/22/58e5a628-2482-47f6-8250-7cd3f51d1cfb.jpg");
+}
+
+.carouselItem4-container {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0px;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/15/3685b823-ebb1-4838-8242-fe490ef2402b.jpg");
+  color: #fff;
+}
+
+.carouselItem1-container-wrap {
+  text-align: center !important;
+}
+
+.carouselItem1-container-wrap-vertically-center {
+  padding: 120px 0;
+}
+
+.carouselItem1-container-text_subtitle {
+  font-size: 1.23rem;
+  padding-top: 20px;
+  margin-bottom: 6px;
+}
+
+.carouselItem1-container-text_title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  line-height: 60px;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+
+.carouselItem1-container-btn {
+  margin: 0 auto;
+}
+
+.btn-primary-inv {
+  background-color: #fff;
+  border-color: #fff;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.075);
+  width: 266.56px;
+  height: 49px;
+  color: #00A0E9;
+}
+
+.btn-lg, .btn-group-lg, .btn {
+  padding: 16px 0px;
+  font-size: 1.076rem;
+  line-height: 1.23rem;
+  border-radius: 0.3rem;
+  word-wrap: break-word;
+}
+
+.carouselItem1-container-btn span {
+  color: #00A0E9;
+}
+/*# sourceMappingURL=teachSass.css.map */
