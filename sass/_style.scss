@@ -24,6 +24,13 @@ $vertically-center: auto 0;
 
 /*blocks*/
 /*CSS blocks*/
+.full-width-screensize{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
 a{
   text-decoration: none;
 }
@@ -185,6 +192,51 @@ a{
   }
 .carouselItem1-container-btn span{
   color: $color-primary;
+}
+.tallies{
+  text-align: center;
+  padding: 0px 0;
+}
+.tallies-container{
+  @extend .full-width-screensize; 
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;  
+}
+.dot{
+  clear:both;
+}
+.tallies-row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  border-right: 2px solid #dfdfdf;
+}
+.tally{
+  padding: 32px 0;
+  border-right: 2px solid #dfdfdf;
+}
+.tallies-col{ 
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.about-container{
+  @extend .tallies-container;
+}
+.about-row{
+  @extend .tallies-row;
+  border-right: none;
+}
+.col-md-5{
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%; 
+}
+.col-Md-7{
+  flex: 0 0 58.33333%;
+  max-width: 58.33333%;
 }
 
 
