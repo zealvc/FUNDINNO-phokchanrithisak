@@ -518,10 +518,107 @@ h3.mb-15 {
   margin-bottom: 1.538rem;
 }
 
-.card-progress-wrapper {
+.align-items-center {
   -webkit-box-align: center !important;
       -ms-flex-align: center !important;
           align-items: center !important;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+/*indicator progress bar*/
+i {
+  color: #dee2e6;
+  font-size: 0.923rem;
+}
+
+.text-primary {
+  color: #00A0E9 !important;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.progress {
+  height: 0.25rem;
+  overflow: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #dee2e6;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.progress-bar {
+  border-radius: 0.25rem;
+  padding-right: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #00A0E9;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.pickup-body-card1-bottom,
+.pickup-body-card-1-bottom-ttl {
+  height: 5.538rem;
+  border: 1px solid #f2f2f2;
+  font-size: 1.076rem;
+  font-weight: 600;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > .x {
+  background-color: #f1f1f1;
+  width: 100px;
+  padding: 50px 50px;
 }
 
 /*partial SaSS*/
@@ -1044,10 +1141,107 @@ h3.mb-15 {
   margin-bottom: 1.538rem;
 }
 
-.card-progress-wrapper {
+.align-items-center {
   -webkit-box-align: center !important;
       -ms-flex-align: center !important;
           align-items: center !important;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+/*indicator progress bar*/
+i {
+  color: #dee2e6;
+  font-size: 0.923rem;
+}
+
+.text-primary {
+  color: #00A0E9 !important;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.progress {
+  height: 0.25rem;
+  overflow: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #dee2e6;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.progress-bar {
+  border-radius: 0.25rem;
+  padding-right: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #00A0E9;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.pickup-body-card1-bottom,
+.pickup-body-card-1-bottom-ttl {
+  height: 5.538rem;
+  border: 1px solid #f2f2f2;
+  font-size: 1.076rem;
+  font-weight: 600;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > .x {
+  background-color: #f1f1f1;
+  width: 100px;
+  padding: 50px 50px;
 }
 
 /*partial SaSS*/
@@ -1570,10 +1764,107 @@ h3.mb-15 {
   margin-bottom: 1.538rem;
 }
 
-.card-progress-wrapper {
+.align-items-center {
   -webkit-box-align: center !important;
       -ms-flex-align: center !important;
           align-items: center !important;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+/*indicator progress bar*/
+i {
+  color: #dee2e6;
+  font-size: 0.923rem;
+}
+
+.text-primary {
+  color: #00A0E9 !important;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.progress {
+  height: 0.25rem;
+  overflow: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #dee2e6;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.progress-bar {
+  border-radius: 0.25rem;
+  padding-right: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #00A0E9;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.pickup-body-card1-bottom,
+.pickup-body-card-1-bottom-ttl {
+  height: 5.538rem;
+  border: 1px solid #f2f2f2;
+  font-size: 1.076rem;
+  font-weight: 600;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > .x {
+  background-color: #f1f1f1;
+  width: 100px;
+  padding: 50px 50px;
 }
 
 /*partial SaSS*/
@@ -2096,9 +2387,106 @@ h3.mb-15 {
   margin-bottom: 1.538rem;
 }
 
-.card-progress-wrapper {
+.align-items-center {
   -webkit-box-align: center !important;
       -ms-flex-align: center !important;
           align-items: center !important;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+/*indicator progress bar*/
+i {
+  color: #dee2e6;
+  font-size: 0.923rem;
+}
+
+.text-primary {
+  color: #00A0E9 !important;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.progress {
+  height: 0.25rem;
+  overflow: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #dee2e6;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.progress-bar {
+  border-radius: 0.25rem;
+  padding-right: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #00A0E9;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.pickup-body-card1-bottom,
+.pickup-body-card-1-bottom-ttl {
+  height: 5.538rem;
+  border: 1px solid #f2f2f2;
+  font-size: 1.076rem;
+  font-weight: 600;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > .x {
+  background-color: #f1f1f1;
+  width: 100px;
+  padding: 50px 50px;
 }
 /*# sourceMappingURL=main.css.map */
