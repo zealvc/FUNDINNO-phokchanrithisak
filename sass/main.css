@@ -620,6 +620,21 @@ i {
   display: flex !important;
 }
 
+.pickup-body-container {
+  all: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pickup-body-card1 {
+  all: initial;
+  width: 349.983px;
+  height: 600.365px;
+}
+
 /*partial SaSS*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -1242,6 +1257,21 @@ i {
   display: flex !important;
 }
 
+.pickup-body-container {
+  all: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pickup-body-card1 {
+  all: initial;
+  width: 349.983px;
+  height: 600.365px;
+}
+
 /*partial SaSS*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -1864,6 +1894,21 @@ i {
   display: flex !important;
 }
 
+.pickup-body-container {
+  all: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pickup-body-card1 {
+  all: initial;
+  width: 349.983px;
+  height: 600.365px;
+}
+
 /*partial SaSS*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -2484,5 +2529,20 @@ i {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+}
+
+.pickup-body-container {
+  all: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pickup-body-card1 {
+  all: initial;
+  width: 349.983px;
+  height: 600.365px;
 }
 /*# sourceMappingURL=main.css.map */
