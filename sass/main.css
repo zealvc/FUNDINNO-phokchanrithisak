@@ -451,6 +451,21 @@ h3.mb-15 {
 }
 
 /*pickup*/
+/*flex work*/
+.pickup-body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pickup-body-card1 {
+  width: 349.983px;
+  height: 600.365px;
+  background-color: #bcbcf5;
+}
+
 /*partial SaSS*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -904,6 +919,21 @@ h3.mb-15 {
 }
 
 /*pickup*/
+/*flex work*/
+.pickup-body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pickup-body-card1 {
+  width: 349.983px;
+  height: 600.365px;
+  background-color: #bcbcf5;
+}
+
 /*partial SaSS*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -1357,6 +1387,21 @@ h3.mb-15 {
 }
 
 /*pickup*/
+/*flex work*/
+.pickup-body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pickup-body-card1 {
+  width: 349.983px;
+  height: 600.365px;
+  background-color: #bcbcf5;
+}
+
 /*partial SaSS*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -1810,4 +1855,18 @@ h3.mb-15 {
 }
 
 /*pickup*/
+/*flex work*/
+.pickup-body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pickup-body-card1 {
+  width: 349.983px;
+  height: 600.365px;
+  background-color: #bcbcf5;
+}
 /*# sourceMappingURL=main.css.map */

@@ -281,3 +281,14 @@ h3.mb-15{
   color: #00A0E9;
 }
 /*pickup*/
+
+/*flex work*/
+.pickup-body-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pickup-body-card1{
+  width: 349.983px;
+  height: 600.365px;
+  background-color: rgb(188, 188, 245);
+}
