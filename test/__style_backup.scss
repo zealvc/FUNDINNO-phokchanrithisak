@@ -223,22 +223,185 @@ a{
   flex-grow: 1;
   max-width: 100%;
 }
+div.about{
+  padding: 70px 0;
+  border-bottom: 2px solid #f2f2f2;
+  background-image: url(https://fundinno.com/assets/views/pages/index/agreement-business-businessmen-125d7b677a7a458f3d54357c248d9e33cb4aa6f0924332a35697597bc3dab6aa.png);
+    background-size: cover;
+
+}
+.about-text-only{
+  width: 634.98px;
+  height: auto;
+}
 .about-container{
   @extend .tallies-container;
+  max-width: 1140px;  
+  margin:0% 8%;
 }
 .about-row{
   @extend .tallies-row;
   border-right: none;
+ 
 }
 .col-md-5{
   flex: 0 0 41.66667%;
-  max-width: 41.66667%; 
+    max-width: 41.66667%; 
 }
 .col-Md-7{
   flex: 0 0 58.33333%;
   max-width: 58.33333%;
 }
+h3.mb-15{
+      font-size: 1.35rem;
+      line-height: 2.076rem;
+}
+.mb-15{
+  margin-bottom: 15px !important; 
+}
+.about__btn{
+  padding: 40px 0;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.btn-lg {
+  padding: 16px 30px;
+  font-size: 1.076rem;
+  line-height: 1.23rem;
+  border-radius: 0.3rem;
+}
+.btn-primary{
+  color: #fff;
+  background-color: #00A0E9;
+  border-color: #00A0E9;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3), 0 1px 1px rgba(0,0,0,0.075);
+}
+.about-primary{
+  color: #00A0E9;
+}
+/*pickup*/
+.pickup-contianer{
+  width: 330px;
+  height: 589.132px;
+}
+.card-img-top{
+  width: 328.021px;
+  height: auto;
+}
+.pickup-body-card-1-top-ttl{
+  background: rgba(0,162,156,0.8);
+  width: 192px;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 3px 0 0 0 rgba(0,162,156,0.8), -3px 0 0 0 rgba(0,162,156,0.8), 0 3px 3px 0 rgba(0,0,0,0.1);
+}
+.pickup-body-card-1-body-name, .pickup-body-card-1-body-pf{
+  display: inline-block;
+}
+.mediacompany{
+  padding: 0px 25px;
+}
+.pickup-body-card-1-body-mainContent{
+  font-size: 0.8rem;
+  line-height: 1.16rem;
+  height: 3.692rem;
+  padding: 0 1.538rem;
+  margin-bottom: 0.3rem;
+  overflow: hidden;
+}
+.pickup-body-card-1-body-description{
+  margin-bottom: 1.538rem;
+    padding: 0 1.538rem;
+    font-size: 0.769rem;
+    line-height: 1.538rem;
+    height: 4.614rem;
+    color: rgba(36,42,94,0.4);
+    overflow: hidden;
+}
+.pickup-body-card-1-body-price{
+  float: right !important;
+  font-weight: 600;
+  padding: 0 2rem;;
 
-    
+}
+.solicit{
+  font-size: 1.306rem;
+  color: #00A0E9;
+}
+.pickup-body-card-1-body-price,
+.indicator{
+  clear: both;
+}
+.indicator{
+  height: 1rem;
+  padding: 0 1.538rem;
+  margin-bottom: 1.538rem;
+}
+.align-items-center{
+  align-items: center !important;
+}
+.justify-content-between{
+  justify-content: space-between !important;
+}
+/*indicator progress bar*/
+i{
+  color: #dee2e6;
+  font-size: 0.923rem;
+}
+.text-primary{
+  color: #00A0E9 !important;  
+}
+.fa{
+  display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.progress{
+  height: 0.25rem;
+  overflow: visible;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #dee2e6;
+  border-radius: 0.25rem;
+  box-shadow: none;
 
-
+}
+/*flex box*/
+.pickup-body-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pickup-body-card1{
+  width: 349.983px;
+  height: 600.365px;
+}
+.w-100{
+  width: 100% !important;
+}
+.progress-bar{
+  border-radius: 0.25rem;
+    padding-right: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #00A0E9;
+    transition: width 0.6s ease;
+}
+.pickup-body-card1-bottom,
+.pickup-body-card-1-bottom-ttl{
+  height: 5.538rem;
+  border: 1px solid #f2f2f2;
+  font-size: 1.076rem;
+  font-weight: 600;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+}
