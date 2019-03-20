@@ -621,18 +621,25 @@ i {
 }
 
 .pickup-body-container {
-  all: initial;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  isolation: isolate;
+  all: initial;
 }
 
 .pickup-body-card1 {
-  all: initial;
   width: 349.983px;
   height: 600.365px;
+  isolation: isolate;
+  all: initial;
+}
+
+.pickup {
+  all: initial;
+  isolation: isolate;
 }
 
 /*partial SaSS*/
@@ -1258,18 +1265,25 @@ i {
 }
 
 .pickup-body-container {
-  all: initial;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  isolation: isolate;
+  all: initial;
 }
 
 .pickup-body-card1 {
-  all: initial;
   width: 349.983px;
   height: 600.365px;
+  isolation: isolate;
+  all: initial;
+}
+
+.pickup {
+  all: initial;
+  isolation: isolate;
 }
 
 /*partial SaSS*/
@@ -1895,18 +1909,25 @@ i {
 }
 
 .pickup-body-container {
-  all: initial;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  isolation: isolate;
+  all: initial;
 }
 
 .pickup-body-card1 {
-  all: initial;
   width: 349.983px;
   height: 600.365px;
+  isolation: isolate;
+  all: initial;
+}
+
+.pickup {
+  all: initial;
+  isolation: isolate;
 }
 
 /*partial SaSS*/
@@ -2532,17 +2553,24 @@ i {
 }
 
 .pickup-body-container {
-  all: initial;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  isolation: isolate;
+  all: initial;
 }
 
 .pickup-body-card1 {
-  all: initial;
   width: 349.983px;
   height: 600.365px;
+  isolation: isolate;
+  all: initial;
+}
+
+.pickup {
+  all: initial;
+  isolation: isolate;
 }
 /*# sourceMappingURL=main.css.map */
