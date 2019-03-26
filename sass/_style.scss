@@ -31,6 +31,14 @@ $vertically-center: auto 0;
   top: 0;
   left: 0;
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body{
   margin: auto;
 
@@ -312,13 +320,13 @@ h2.mb-30{
   line-height: 3.076rem;
 }
 .mb-30{
-  margin-bottom: 30px !important;
+  margin-bottom: 30px;
 }
 .text-center{
-  text-align: center !important;
+  text-align: center;
 }
 .text-primary{
-  color: #00A0E9 !important;
+  color: #00A0E9;
 }
 .pickup-body-card1{
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
@@ -363,7 +371,6 @@ img.media.company{
 .pickup-body-card-1-body-description{
   padding: 0 27.684px;
 
-<<<<<<< HEAD
 }
 .pickup-body-card-1-body-mainContent{
   padding: 10px 27.684px;
@@ -420,11 +427,11 @@ img.media.company{
   margin-bottom: 1.538rem;
 }
 .align-items-center {
-  align-items: center !important;
+  align-items: center ;
 }
 
 .justify-content-between {
-  justify-content: space-between !important;
+  justify-content: space-between;
 }
 .d-flex {
   display: flex !important;
@@ -435,10 +442,10 @@ img.media.company{
 }
 
 .text-primary {
-  color: #00A0E9 !important;
+  color: #00A0E9;
 }
 .mr-1, .mx-1 {
-  margin-right: 0.25rem !important;
+  margin-right: 0.25rem;
 }
 .fa {
   display: inline-block;
@@ -454,7 +461,7 @@ img.media.company{
 }
 
 .w-100 {
-  width: 100% !important;
+  width: 100%;
 }
 .progress {
   display: flex;
@@ -487,10 +494,10 @@ img.media.company{
 }
 
 .text-primary {
-  color: #00A0E9 !important;
+  color: #00A0E9;
 }
 .ml-1, .mx-1 {
-  margin-left: 0.25rem !important;
+  margin-left: 0.25rem;
 }
 .fa {
   display: inline-block;
@@ -508,102 +515,103 @@ img.media.company{
     font-weight: 600;
 }
 .align-items-center {
-  align-items: center !important;
+  align-items: center;
 }
 
 .justify-content-center {
-  justify-content: center !important;
+  justify-content: center;
 }
 .d-flex {
-  display: flex !important;
+  display: flex;
 }
 /*seperate footer and body*/
 .pickup-footer{
-  padding:150px 0;
+  padding-top:150px;
 }
 
 /*Case Study section*/
 .case-study{
+  display:block;
   padding: 88px 0;
   background-color: #F6F8FA;
   border-bottom: 2px solid #f2f2f2;
-  margin: 0 104.500px;
 }
 .case-study-container{
-  max-width: 1140px;
+ 
 }
-.mb-50{
-  margin-bottom: 50px !important;
+.case-study-header{
+    font-size: 1.846rem;
+    line-height: 3.076rem;
 }
-.mb-30{
-  margin-bottom: 30px !important;
+/*CASE-STUDY-SECTION__mb-50*/
+.case-study-pf{
+
 }
-.row{
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.col-md-1{
-  flex: 0 0 8.33333%;
-  max-width: 8.33333%;
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.w-100{
-  width: 100% !important;
+.case-study-pf-img-left{
+  width: 64px;
+  margin-bottom: 75px;
+  margin-right: 20px;
   
 }
-.rounded-circle{
-  border-radius: 50% !important;
+.case-study-pf-img-right{
+  width: 64px;
+  margin-bottom: 75px;
+  margin-left: 20px;
+  
 }
-img.w-100{
-  vertical-align: middle;
-  border-style: none;
-}
-.col-md-10{
-  flex: 0 0 83.33333%;
-  max-width: 83.33333%;
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.balloon{
-  background: #fff;
-  border-radius: 5px;
-  position: relative;
+.case-study-pf,
+.case-study-dialog{
   display: inline-block;
-  width: 100%;
-  padding: 2.4rem;
 }
-.case-study-submain-right{
+
+.case-study-row-left{ 
+  padding-left:130px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.case-study-row-right{ 
+  padding-left:220px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.case-study-dialog-container{
+  width: 919.984px;
+  height: 172.344px;
+  background: #fff;
   box-shadow: 0 0 10px 0 rgba(163,163,163,0.5);
+  border-radius: 5px;
+  padding:30px;
+  line-height: 30px;
 }
-=======
-    
->>>>>>> eb825c7edf5baad8a3cdbc9301b0813b9b14a6db
-
-/*MAINTAINANCE AREA*/
-
-
-.case-study .balloon>.title {
-  font-size: 1.153rem;
-  font-weight: 600;
+.dialog-title{
+  font-weight: 900;
 }
-
-
-
-.case-study .balloon>* {
-  position: relative;
-  z-index: 3;
+.case-study-footer{
+  padding-top:40px;
 }
-
-.case-study .balloon-left {
-  left: -10px;
-  top: 10px;
-  -webkit-transform: rotate(45deg) skew(-20deg, -20deg);
-  transform: rotate(45deg) skew(-20deg, -20deg);
+/*crowd funding*/
+div.crowd-funding{
+  @extend div.about;
+  background-image: url(https://fundinno.com/assets/views/pages/index/businessman-smartphone-e8660269950c6e76124c4f91901d7c42650e778ac2eafe82557506b62b4c718f.png);
+}
+.crowd-funding-left-container{
+  width: 635px;
+  height: 245px;
+  padding-left: 120px;
+}
+.crowd-funding-title-first,
+.crowd-funding-title-middle,
+.crowd-funding-title-last{
+  display: inline-block;
+  font-size: 1.646rem;
+  line-height: 3.076rem;
+}
+.crowd-funding-description{
+  width: 635px;
+  line-height: 1.8;
+  font-size: 0.9rem;
+  color: #242A5E;
+}
+.crowd-funding-button{
+  @extend .about__btn;
 }
