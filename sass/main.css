@@ -142,6 +142,7 @@ table {
 /*variable*/
 /*color*/
 /*element*/
+/*company logo url*/
 /*blocks*/
 /*CSS blocks*/
 .full-width-screensize, .tallies-container, .about-container, .pickup-card-wrapper {
@@ -162,6 +163,7 @@ html, body {
 
 body {
   margin: auto;
+  color: #242A5E;
 }
 
 a {
@@ -502,7 +504,7 @@ h2.mb-30 {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .text-primary {
@@ -796,6 +798,10 @@ img.media.company {
   margin-left: 20px;
 }
 
+.round-circle {
+  border-radius: 50% !important;
+}
+
 .case-study-pf,
 .case-study-dialog {
   display: inline-block;
@@ -805,6 +811,7 @@ img.media.company {
   padding-left: 130px;
   padding-top: 15px;
   padding-bottom: 15px;
+  font-size: 0.8rem;
 }
 
 .case-study-row-right {
@@ -822,6 +829,10 @@ img.media.company {
   border-radius: 5px;
   padding: 30px;
   line-height: 30px;
+}
+
+.case-study-long {
+  height: 210px;
 }
 
 .dialog-title {
@@ -856,6 +867,265 @@ div.crowd-funding {
   line-height: 1.8;
   font-size: 0.9rem;
   color: #242A5E;
+}
+
+/*NEW SECTION*/
+.new {
+  padding: 88px 0;
+  background-color: #F6F8FA;
+}
+
+/*new header*/
+.new-header {
+  height: 47px;
+  padding-left: 380px;
+}
+
+.new-header-title,
+.new-header-button {
+  display: inline-block;
+}
+
+.new-header-title {
+  font-size: 1.846rem;
+  font-weight: 500;
+  color: inherit;
+  padding-right: 380px;
+}
+
+.new-header-button {
+  width: 80px;
+  height: 32px;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+  padding: 10px 20px;
+  left: 100px;
+}
+
+.new-card1 {
+  background-color: white;
+}
+
+.new-card1-date,
+.new-card1-badge {
+  display: inline-block;
+  padding: 10px 10px 10px 0;
+}
+
+.new-card1-date,
+.new-card1-badge-orange {
+  display: inline-block;
+}
+
+.new-card1-badge {
+  color: #00A0E9;
+  background-color: #e9f8ff;
+  padding: 0.4em 0.6em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.new-card1-badge-orange {
+  color: #F2994A;
+  background-color: #fff;
+  display: inline-block;
+  padding: 0.4em 0.6em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.new-card1 {
+  width: 1040px;
+  height: 130px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(163, 163, 163, 0.5);
+          box-shadow: 0 0 10px 0 rgba(163, 163, 163, 0.5);
+  margin-left: 160px;
+  padding: 25px;
+  font-size: 0.8rem;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*POSTING SECTION*/
+.posting-text-container {
+  font-size: 1.846rem;
+  line-height: 3.076rem;
+}
+
+.posting-container-t {
+  padding: 10px 100px;
+}
+
+div.posting-t1 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/yahoonews_logo-847410724b563bebe3648481651e4bc4a47dccd76bd7d880a8b91d2219155f2f.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 152px;
+  height: 35px;
+}
+
+div.posting-t2 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/best_venture_logo-8ebe394dae310eb3a96cb2dea619f57035b6e0ed708b011dd71a53ce9a154884.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 105px;
+  height: 59px;
+}
+
+div.posting-t3 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/sankeibiz_logo-9b9a7319092e352ee0bcdbd6f4d44d90816e097db380a0b81c850b3be50a773b.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  height: 25px;
+}
+
+div.posting-t4 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/jitsugyokai_logo-c4a8ebb1a250e32341a82ae855ff1a4054178aa80afed7feaffd3844c41ed017.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 86px;
+  height: 30px;
+}
+
+div.posting-t5 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/venture_times_logo-3cd34f043662eceaf28bbd96ea6b8f6b6e36ba802b5faa2b6c3718438df48a38.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 146px;
+  height: 43px;
+}
+
+div.posting-t6 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/techcrunch_logo-f1e670f4c03151b6af4ae2a16a57307ac4e42c373ce879292509d2977e5321d5.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 163px;
+  height: 36px;
+}
+
+div.posting-logo-left,
+div.posting-logo-middle,
+div.posting-logo-right {
+  display: inline-block;
+}
+
+.posting-container {
+  padding: 88px 0;
+}
+
+/*FOOTER SECTION*/
+.main-footer {
+  color: #fff;
+  background-color: #283C50;
+  font-size: 0.923rem;
+  padding: 64px 100px;
+}
+
+.footer-1-top-container-top {
+  width: 1130px;
+  height: 190px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.12);
+  font-weight: 100;
+}
+
+div.footer-1-bottom-col-left,
+div.footer-1-bottom-col-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-1-top-container-top__inside,
+.footer-1-top-container-bottom__inside {
+  line-height: 1.6rem;
+}
+
+.footer-1-top-container-top__inside a,
+.footer-1-top-container-bottom__inside a {
+  color: #80e0f8;
+  font-weight: 500;
+}
+
+.facebook, .twitter {
+  padding: 10px 40px 10px 0;
+  margin: 10px 0;
+}
+
+div.footer-link a {
+  color: #fff;
+  line-height: 1.9rem;
+}
+
+div.footer-link a:hover {
+  color: #00A0E9;
+}
+
+.footer-1-bottom-col-left-container {
+  padding: 40px 0;
+  width: 350px;
+  height: 400px;
+}
+
+.footer-1-bottom-col-right-container {
+  padding: 40px 0;
+}
+
+.social-link a {
+  width: 161px;
+  height: 15px;
+  padding: 16px 30px;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #314A7E;
+  border-radius: 0.2rem;
+}
+
+.twitter {
+  background-color: #4BA2E4;
+  border-radius: 0.2rem;
+}
+
+.fab {
+  padding-right: 35px;
+}
+
+hr {
+  margin-top: 125px;
+  margin-bottom: 50px;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 1.23rem;
+}
+
+.footer-container-2 {
+  line-height: 1.4rem;
+}
+
+.footer-container-2-top,
+.footer-container-2-middle,
+.footer-container-2-bottom {
+  padding: 10px 0;
+}
+
+.sm {
+  font-size: 0.7rem;
+  color: #e4e4e4;
 }
 
 /*partial SaSS*/
@@ -1002,6 +1272,7 @@ table {
 /*variable*/
 /*color*/
 /*element*/
+/*company logo url*/
 /*blocks*/
 /*CSS blocks*/
 .full-width-screensize, .tallies-container, .about-container, .pickup-card-wrapper {
@@ -1022,6 +1293,7 @@ html, body {
 
 body {
   margin: auto;
+  color: #242A5E;
 }
 
 a {
@@ -1362,7 +1634,7 @@ h2.mb-30 {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .text-primary {
@@ -1656,6 +1928,10 @@ img.media.company {
   margin-left: 20px;
 }
 
+.round-circle {
+  border-radius: 50% !important;
+}
+
 .case-study-pf,
 .case-study-dialog {
   display: inline-block;
@@ -1665,6 +1941,7 @@ img.media.company {
   padding-left: 130px;
   padding-top: 15px;
   padding-bottom: 15px;
+  font-size: 0.8rem;
 }
 
 .case-study-row-right {
@@ -1682,6 +1959,10 @@ img.media.company {
   border-radius: 5px;
   padding: 30px;
   line-height: 30px;
+}
+
+.case-study-long {
+  height: 210px;
 }
 
 .dialog-title {
@@ -1716,6 +1997,265 @@ div.crowd-funding {
   line-height: 1.8;
   font-size: 0.9rem;
   color: #242A5E;
+}
+
+/*NEW SECTION*/
+.new {
+  padding: 88px 0;
+  background-color: #F6F8FA;
+}
+
+/*new header*/
+.new-header {
+  height: 47px;
+  padding-left: 380px;
+}
+
+.new-header-title,
+.new-header-button {
+  display: inline-block;
+}
+
+.new-header-title {
+  font-size: 1.846rem;
+  font-weight: 500;
+  color: inherit;
+  padding-right: 380px;
+}
+
+.new-header-button {
+  width: 80px;
+  height: 32px;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+  padding: 10px 20px;
+  left: 100px;
+}
+
+.new-card1 {
+  background-color: white;
+}
+
+.new-card1-date,
+.new-card1-badge {
+  display: inline-block;
+  padding: 10px 10px 10px 0;
+}
+
+.new-card1-date,
+.new-card1-badge-orange {
+  display: inline-block;
+}
+
+.new-card1-badge {
+  color: #00A0E9;
+  background-color: #e9f8ff;
+  padding: 0.4em 0.6em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.new-card1-badge-orange {
+  color: #F2994A;
+  background-color: #fff;
+  display: inline-block;
+  padding: 0.4em 0.6em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.new-card1 {
+  width: 1040px;
+  height: 130px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(163, 163, 163, 0.5);
+          box-shadow: 0 0 10px 0 rgba(163, 163, 163, 0.5);
+  margin-left: 160px;
+  padding: 25px;
+  font-size: 0.8rem;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*POSTING SECTION*/
+.posting-text-container {
+  font-size: 1.846rem;
+  line-height: 3.076rem;
+}
+
+.posting-container-t {
+  padding: 10px 100px;
+}
+
+div.posting-t1 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/yahoonews_logo-847410724b563bebe3648481651e4bc4a47dccd76bd7d880a8b91d2219155f2f.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 152px;
+  height: 35px;
+}
+
+div.posting-t2 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/best_venture_logo-8ebe394dae310eb3a96cb2dea619f57035b6e0ed708b011dd71a53ce9a154884.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 105px;
+  height: 59px;
+}
+
+div.posting-t3 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/sankeibiz_logo-9b9a7319092e352ee0bcdbd6f4d44d90816e097db380a0b81c850b3be50a773b.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  height: 25px;
+}
+
+div.posting-t4 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/jitsugyokai_logo-c4a8ebb1a250e32341a82ae855ff1a4054178aa80afed7feaffd3844c41ed017.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 86px;
+  height: 30px;
+}
+
+div.posting-t5 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/venture_times_logo-3cd34f043662eceaf28bbd96ea6b8f6b6e36ba802b5faa2b6c3718438df48a38.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 146px;
+  height: 43px;
+}
+
+div.posting-t6 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/techcrunch_logo-f1e670f4c03151b6af4ae2a16a57307ac4e42c373ce879292509d2977e5321d5.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 163px;
+  height: 36px;
+}
+
+div.posting-logo-left,
+div.posting-logo-middle,
+div.posting-logo-right {
+  display: inline-block;
+}
+
+.posting-container {
+  padding: 88px 0;
+}
+
+/*FOOTER SECTION*/
+.main-footer {
+  color: #fff;
+  background-color: #283C50;
+  font-size: 0.923rem;
+  padding: 64px 100px;
+}
+
+.footer-1-top-container-top {
+  width: 1130px;
+  height: 190px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.12);
+  font-weight: 100;
+}
+
+div.footer-1-bottom-col-left,
+div.footer-1-bottom-col-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-1-top-container-top__inside,
+.footer-1-top-container-bottom__inside {
+  line-height: 1.6rem;
+}
+
+.footer-1-top-container-top__inside a,
+.footer-1-top-container-bottom__inside a {
+  color: #80e0f8;
+  font-weight: 500;
+}
+
+.facebook, .twitter {
+  padding: 10px 40px 10px 0;
+  margin: 10px 0;
+}
+
+div.footer-link a {
+  color: #fff;
+  line-height: 1.9rem;
+}
+
+div.footer-link a:hover {
+  color: #00A0E9;
+}
+
+.footer-1-bottom-col-left-container {
+  padding: 40px 0;
+  width: 350px;
+  height: 400px;
+}
+
+.footer-1-bottom-col-right-container {
+  padding: 40px 0;
+}
+
+.social-link a {
+  width: 161px;
+  height: 15px;
+  padding: 16px 30px;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #314A7E;
+  border-radius: 0.2rem;
+}
+
+.twitter {
+  background-color: #4BA2E4;
+  border-radius: 0.2rem;
+}
+
+.fab {
+  padding-right: 35px;
+}
+
+hr {
+  margin-top: 125px;
+  margin-bottom: 50px;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 1.23rem;
+}
+
+.footer-container-2 {
+  line-height: 1.4rem;
+}
+
+.footer-container-2-top,
+.footer-container-2-middle,
+.footer-container-2-bottom {
+  padding: 10px 0;
+}
+
+.sm {
+  font-size: 0.7rem;
+  color: #e4e4e4;
 }
 
 /*partial SaSS*/
@@ -1862,6 +2402,7 @@ table {
 /*variable*/
 /*color*/
 /*element*/
+/*company logo url*/
 /*blocks*/
 /*CSS blocks*/
 .full-width-screensize, .tallies-container, .about-container, .pickup-card-wrapper {
@@ -1882,6 +2423,7 @@ html, body {
 
 body {
   margin: auto;
+  color: #242A5E;
 }
 
 a {
@@ -2222,7 +2764,7 @@ h2.mb-30 {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .text-primary {
@@ -2516,6 +3058,10 @@ img.media.company {
   margin-left: 20px;
 }
 
+.round-circle {
+  border-radius: 50% !important;
+}
+
 .case-study-pf,
 .case-study-dialog {
   display: inline-block;
@@ -2525,6 +3071,7 @@ img.media.company {
   padding-left: 130px;
   padding-top: 15px;
   padding-bottom: 15px;
+  font-size: 0.8rem;
 }
 
 .case-study-row-right {
@@ -2542,6 +3089,10 @@ img.media.company {
   border-radius: 5px;
   padding: 30px;
   line-height: 30px;
+}
+
+.case-study-long {
+  height: 210px;
 }
 
 .dialog-title {
@@ -2576,6 +3127,265 @@ div.crowd-funding {
   line-height: 1.8;
   font-size: 0.9rem;
   color: #242A5E;
+}
+
+/*NEW SECTION*/
+.new {
+  padding: 88px 0;
+  background-color: #F6F8FA;
+}
+
+/*new header*/
+.new-header {
+  height: 47px;
+  padding-left: 380px;
+}
+
+.new-header-title,
+.new-header-button {
+  display: inline-block;
+}
+
+.new-header-title {
+  font-size: 1.846rem;
+  font-weight: 500;
+  color: inherit;
+  padding-right: 380px;
+}
+
+.new-header-button {
+  width: 80px;
+  height: 32px;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+  padding: 10px 20px;
+  left: 100px;
+}
+
+.new-card1 {
+  background-color: white;
+}
+
+.new-card1-date,
+.new-card1-badge {
+  display: inline-block;
+  padding: 10px 10px 10px 0;
+}
+
+.new-card1-date,
+.new-card1-badge-orange {
+  display: inline-block;
+}
+
+.new-card1-badge {
+  color: #00A0E9;
+  background-color: #e9f8ff;
+  padding: 0.4em 0.6em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.new-card1-badge-orange {
+  color: #F2994A;
+  background-color: #fff;
+  display: inline-block;
+  padding: 0.4em 0.6em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.new-card1 {
+  width: 1040px;
+  height: 130px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(163, 163, 163, 0.5);
+          box-shadow: 0 0 10px 0 rgba(163, 163, 163, 0.5);
+  margin-left: 160px;
+  padding: 25px;
+  font-size: 0.8rem;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*POSTING SECTION*/
+.posting-text-container {
+  font-size: 1.846rem;
+  line-height: 3.076rem;
+}
+
+.posting-container-t {
+  padding: 10px 100px;
+}
+
+div.posting-t1 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/yahoonews_logo-847410724b563bebe3648481651e4bc4a47dccd76bd7d880a8b91d2219155f2f.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 152px;
+  height: 35px;
+}
+
+div.posting-t2 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/best_venture_logo-8ebe394dae310eb3a96cb2dea619f57035b6e0ed708b011dd71a53ce9a154884.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 105px;
+  height: 59px;
+}
+
+div.posting-t3 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/sankeibiz_logo-9b9a7319092e352ee0bcdbd6f4d44d90816e097db380a0b81c850b3be50a773b.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  height: 25px;
+}
+
+div.posting-t4 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/jitsugyokai_logo-c4a8ebb1a250e32341a82ae855ff1a4054178aa80afed7feaffd3844c41ed017.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 86px;
+  height: 30px;
+}
+
+div.posting-t5 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/venture_times_logo-3cd34f043662eceaf28bbd96ea6b8f6b6e36ba802b5faa2b6c3718438df48a38.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 146px;
+  height: 43px;
+}
+
+div.posting-t6 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/techcrunch_logo-f1e670f4c03151b6af4ae2a16a57307ac4e42c373ce879292509d2977e5321d5.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 163px;
+  height: 36px;
+}
+
+div.posting-logo-left,
+div.posting-logo-middle,
+div.posting-logo-right {
+  display: inline-block;
+}
+
+.posting-container {
+  padding: 88px 0;
+}
+
+/*FOOTER SECTION*/
+.main-footer {
+  color: #fff;
+  background-color: #283C50;
+  font-size: 0.923rem;
+  padding: 64px 100px;
+}
+
+.footer-1-top-container-top {
+  width: 1130px;
+  height: 190px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.12);
+  font-weight: 100;
+}
+
+div.footer-1-bottom-col-left,
+div.footer-1-bottom-col-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-1-top-container-top__inside,
+.footer-1-top-container-bottom__inside {
+  line-height: 1.6rem;
+}
+
+.footer-1-top-container-top__inside a,
+.footer-1-top-container-bottom__inside a {
+  color: #80e0f8;
+  font-weight: 500;
+}
+
+.facebook, .twitter {
+  padding: 10px 40px 10px 0;
+  margin: 10px 0;
+}
+
+div.footer-link a {
+  color: #fff;
+  line-height: 1.9rem;
+}
+
+div.footer-link a:hover {
+  color: #00A0E9;
+}
+
+.footer-1-bottom-col-left-container {
+  padding: 40px 0;
+  width: 350px;
+  height: 400px;
+}
+
+.footer-1-bottom-col-right-container {
+  padding: 40px 0;
+}
+
+.social-link a {
+  width: 161px;
+  height: 15px;
+  padding: 16px 30px;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #314A7E;
+  border-radius: 0.2rem;
+}
+
+.twitter {
+  background-color: #4BA2E4;
+  border-radius: 0.2rem;
+}
+
+.fab {
+  padding-right: 35px;
+}
+
+hr {
+  margin-top: 125px;
+  margin-bottom: 50px;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 1.23rem;
+}
+
+.footer-container-2 {
+  line-height: 1.4rem;
+}
+
+.footer-container-2-top,
+.footer-container-2-middle,
+.footer-container-2-bottom {
+  padding: 10px 0;
+}
+
+.sm {
+  font-size: 0.7rem;
+  color: #e4e4e4;
 }
 
 /*partial SaSS*/
@@ -2722,6 +3532,7 @@ table {
 /*variable*/
 /*color*/
 /*element*/
+/*company logo url*/
 /*blocks*/
 /*CSS blocks*/
 .full-width-screensize, .tallies-container, .about-container, .pickup-card-wrapper {
@@ -2742,6 +3553,7 @@ html, body {
 
 body {
   margin: auto;
+  color: #242A5E;
 }
 
 a {
@@ -3082,7 +3894,7 @@ h2.mb-30 {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .text-primary {
@@ -3376,6 +4188,10 @@ img.media.company {
   margin-left: 20px;
 }
 
+.round-circle {
+  border-radius: 50% !important;
+}
+
 .case-study-pf,
 .case-study-dialog {
   display: inline-block;
@@ -3385,6 +4201,7 @@ img.media.company {
   padding-left: 130px;
   padding-top: 15px;
   padding-bottom: 15px;
+  font-size: 0.8rem;
 }
 
 .case-study-row-right {
@@ -3402,6 +4219,10 @@ img.media.company {
   border-radius: 5px;
   padding: 30px;
   line-height: 30px;
+}
+
+.case-study-long {
+  height: 210px;
 }
 
 .dialog-title {
@@ -3436,5 +4257,264 @@ div.crowd-funding {
   line-height: 1.8;
   font-size: 0.9rem;
   color: #242A5E;
+}
+
+/*NEW SECTION*/
+.new {
+  padding: 88px 0;
+  background-color: #F6F8FA;
+}
+
+/*new header*/
+.new-header {
+  height: 47px;
+  padding-left: 380px;
+}
+
+.new-header-title,
+.new-header-button {
+  display: inline-block;
+}
+
+.new-header-title {
+  font-size: 1.846rem;
+  font-weight: 500;
+  color: inherit;
+  padding-right: 380px;
+}
+
+.new-header-button {
+  width: 80px;
+  height: 32px;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+  padding: 10px 20px;
+  left: 100px;
+}
+
+.new-card1 {
+  background-color: white;
+}
+
+.new-card1-date,
+.new-card1-badge {
+  display: inline-block;
+  padding: 10px 10px 10px 0;
+}
+
+.new-card1-date,
+.new-card1-badge-orange {
+  display: inline-block;
+}
+
+.new-card1-badge {
+  color: #00A0E9;
+  background-color: #e9f8ff;
+  padding: 0.4em 0.6em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.new-card1-badge-orange {
+  color: #F2994A;
+  background-color: #fff;
+  display: inline-block;
+  padding: 0.4em 0.6em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.new-card1 {
+  width: 1040px;
+  height: 130px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(163, 163, 163, 0.5);
+          box-shadow: 0 0 10px 0 rgba(163, 163, 163, 0.5);
+  margin-left: 160px;
+  padding: 25px;
+  font-size: 0.8rem;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*POSTING SECTION*/
+.posting-text-container {
+  font-size: 1.846rem;
+  line-height: 3.076rem;
+}
+
+.posting-container-t {
+  padding: 10px 100px;
+}
+
+div.posting-t1 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/yahoonews_logo-847410724b563bebe3648481651e4bc4a47dccd76bd7d880a8b91d2219155f2f.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 152px;
+  height: 35px;
+}
+
+div.posting-t2 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/best_venture_logo-8ebe394dae310eb3a96cb2dea619f57035b6e0ed708b011dd71a53ce9a154884.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 105px;
+  height: 59px;
+}
+
+div.posting-t3 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/sankeibiz_logo-9b9a7319092e352ee0bcdbd6f4d44d90816e097db380a0b81c850b3be50a773b.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  height: 25px;
+}
+
+div.posting-t4 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/jitsugyokai_logo-c4a8ebb1a250e32341a82ae855ff1a4054178aa80afed7feaffd3844c41ed017.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 86px;
+  height: 30px;
+}
+
+div.posting-t5 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/venture_times_logo-3cd34f043662eceaf28bbd96ea6b8f6b6e36ba802b5faa2b6c3718438df48a38.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 146px;
+  height: 43px;
+}
+
+div.posting-t6 {
+  content: url("https://fundinno.com/assets/views/pages/media_banners/techcrunch_logo-f1e670f4c03151b6af4ae2a16a57307ac4e42c373ce879292509d2977e5321d5.png");
+  margin-left: auto;
+  margin-right: auto;
+  width: 163px;
+  height: 36px;
+}
+
+div.posting-logo-left,
+div.posting-logo-middle,
+div.posting-logo-right {
+  display: inline-block;
+}
+
+.posting-container {
+  padding: 88px 0;
+}
+
+/*FOOTER SECTION*/
+.main-footer {
+  color: #fff;
+  background-color: #283C50;
+  font-size: 0.923rem;
+  padding: 64px 100px;
+}
+
+.footer-1-top-container-top {
+  width: 1130px;
+  height: 190px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.12);
+  font-weight: 100;
+}
+
+div.footer-1-bottom-col-left,
+div.footer-1-bottom-col-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-1-top-container-top__inside,
+.footer-1-top-container-bottom__inside {
+  line-height: 1.6rem;
+}
+
+.footer-1-top-container-top__inside a,
+.footer-1-top-container-bottom__inside a {
+  color: #80e0f8;
+  font-weight: 500;
+}
+
+.facebook, .twitter {
+  padding: 10px 40px 10px 0;
+  margin: 10px 0;
+}
+
+div.footer-link a {
+  color: #fff;
+  line-height: 1.9rem;
+}
+
+div.footer-link a:hover {
+  color: #00A0E9;
+}
+
+.footer-1-bottom-col-left-container {
+  padding: 40px 0;
+  width: 350px;
+  height: 400px;
+}
+
+.footer-1-bottom-col-right-container {
+  padding: 40px 0;
+}
+
+.social-link a {
+  width: 161px;
+  height: 15px;
+  padding: 16px 30px;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #314A7E;
+  border-radius: 0.2rem;
+}
+
+.twitter {
+  background-color: #4BA2E4;
+  border-radius: 0.2rem;
+}
+
+.fab {
+  padding-right: 35px;
+}
+
+hr {
+  margin-top: 125px;
+  margin-bottom: 50px;
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 1.23rem;
+}
+
+.footer-container-2 {
+  line-height: 1.4rem;
+}
+
+.footer-container-2-top,
+.footer-container-2-middle,
+.footer-container-2-bottom {
+  padding: 10px 0;
+}
+
+.sm {
+  font-size: 0.7rem;
+  color: #e4e4e4;
 }
 /*# sourceMappingURL=main.css.map */
