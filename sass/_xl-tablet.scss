@@ -1,4 +1,27 @@
 @import "style";
 @media #{$xl-tablet}{
- 
+    .carouselItem5-container-wrap{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .carouselItem1-container-wrap{
+        width: 1050px !important;
+        height: 393px !important;
+    }
+    .carouselItem2-division__position_left{
+        width: 560px !important;
+        height: 315px !important;
+    }
+    .carouselItem2-division-position-right{
+        width: 382px !important;
+        height: 315px !important;
+    }
+    .carouselItem2-container-division{
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+    .carouselItem2-btn-link{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
 }

@@ -581,8 +581,8 @@ a {
 
 .carouselItem2-btn-link,
 .carouselItem3-btn-link {
-  padding-right: 169px !important;
-  padding-left: 169px !important;
+  padding-right: 169px;
+  padding-left: 169px;
 }
 
 .btn-primary-inv {
@@ -1996,8 +1996,8 @@ a {
 
 .carouselItem2-btn-link,
 .carouselItem3-btn-link {
-  padding-right: 169px !important;
-  padding-left: 169px !important;
+  padding-right: 169px;
+  padding-left: 169px;
 }
 
 .btn-primary-inv {
@@ -3411,8 +3411,8 @@ a {
 
 .carouselItem2-btn-link,
 .carouselItem3-btn-link {
-  padding-right: 169px !important;
-  padding-left: 169px !important;
+  padding-right: 169px;
+  padding-left: 169px;
 }
 
 .btn-primary-inv {
@@ -4243,6 +4243,33 @@ hr {
   display: none;
 }
 
+@media (min-width: 1024px) and (max-width: 1365px) {
+  .carouselItem5-container-wrap {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .carouselItem1-container-wrap {
+    width: 1050px !important;
+    height: 393px !important;
+  }
+  .carouselItem2-division__position_left {
+    width: 560px !important;
+    height: 315px !important;
+  }
+  .carouselItem2-division-position-right {
+    width: 382px !important;
+    height: 315px !important;
+  }
+  .carouselItem2-container-division {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .carouselItem2-btn-link {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
 /*partial SaSS*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -4826,8 +4853,8 @@ a {
 
 .carouselItem2-btn-link,
 .carouselItem3-btn-link {
-  padding-right: 169px !important;
-  padding-left: 169px !important;
+  padding-right: 169px;
+  padding-left: 169px;
 }
 
 .btn-primary-inv {
