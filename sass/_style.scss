@@ -17,24 +17,24 @@ $color-primary: #00A0E9;
 $reg-font-size: 0.846rem;
 /*CAROUSEL SECTION*/
 /*> carousel background images*/
-$carouselItem1-bg-img:"/rsc/img/carouselItem1-background.webp"; 
-$carouselItem2-bg-img:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/25/12f3edc4-b162-48a2-b6e0-ac8af0a4cc20.jpg"; 
-$carouselItem3-bg-img:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/26/5381ebdb-ff85-4cb9-92e4-69c27fa5d24b.jpg"; 
-$carouselItem4-bg-img:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/22/58e5a628-2482-47f6-8250-7cd3f51d1cfb.jpg"; 
-$carouselItem5-bg-img:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/bg_image/15/3685b823-ebb1-4838-8242-fe490ef2402b.jpg"; 
+$carouselItem1-bg-img:"/rsc/img/3.webp"; 
+$carouselItem2-bg-img:"/rsc/img/21.webp"; 
+$carouselItem3-bg-img:"/rsc/img/22.webp"; 
+$carouselItem4-bg-img:"/rsc/img/23.webp"; 
+$carouselItem5-bg-img:"/rsc/img/22.webp"; 
 /*> carousel contents images*/
-$carouselItem1-ctn-img-2:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/project/image/66/thumb16by9_a1e73168-0014-41e0-b94d-d6e8403e9e95.png"; 
-$carouselItem1-ctn-img-3:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/project/image/65/thumb16by9_fedd5657-b636-42f2-bcf2-6d47539ee0d6.jpg"; 
-$carouselItem1-ctn-img-4:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/image/22/thumb16by9_05fdd37a-2080-4c76-a11c-ea9fdc213021.png"; 
-$carouselItem1-ctn-img-5:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/slider/image/15/thumb16by9_7c1d8191-0925-459f-8b7c-a6af4a714ba7.jpg"; 
-$carouselItem1-ctn-img-4-special:"https://s3-ap-northeast-1.amazonaws.com/fundinno.com/uploads/company/image/365/thumb_c80bd601-7f7c-4ed2-a984-d1d68d098a12.jpg"; 
+$carouselItem1-ctn-img-2:"/rsc/img/16.webp"; 
+$carouselItem1-ctn-img-3:"/rsc/img/18.webp"; 
+$carouselItem1-ctn-img-4:"/rsc/img/14.webp"; 
+$carouselItem1-ctn-img-5:"/rsc/img/15.webp"; 
+$carouselItem1-ctn-img-4-special:"/rsc/img/12.webp"; 
 /*company logo url*/
-$posting-logo-t1:"https://fundinno.com/assets/views/pages/media_banners/yahoonews_logo-847410724b563bebe3648481651e4bc4a47dccd76bd7d880a8b91d2219155f2f.png";
-$posting-logo-t2:"https://fundinno.com/assets/views/pages/media_banners/best_venture_logo-8ebe394dae310eb3a96cb2dea619f57035b6e0ed708b011dd71a53ce9a154884.png";
-$posting-logo-t3:"https://fundinno.com/assets/views/pages/media_banners/sankeibiz_logo-9b9a7319092e352ee0bcdbd6f4d44d90816e097db380a0b81c850b3be50a773b.png";
-$posting-logo-t4:"https://fundinno.com/assets/views/pages/media_banners/jitsugyokai_logo-c4a8ebb1a250e32341a82ae855ff1a4054178aa80afed7feaffd3844c41ed017.png";
-$posting-logo-t5:"https://fundinno.com/assets/views/pages/media_banners/venture_times_logo-3cd34f043662eceaf28bbd96ea6b8f6b6e36ba802b5faa2b6c3718438df48a38.png";
-$posting-logo-t6:"https://fundinno.com/assets/views/pages/media_banners/techcrunch_logo-f1e670f4c03151b6af4ae2a16a57307ac4e42c373ce879292509d2977e5321d5.png";
+$posting-logo-t1:"/rsc/img/20.webp";
+$posting-logo-t2:"/rsc/img/2.webp";
+$posting-logo-t3:"/rsc/img/5.webp";
+$posting-logo-t4:"/rsc/img/4.webp";
+$posting-logo-t5:"/rsc/img/19.webp";
+$posting-logo-t6:"/rsc/img/techcrunch.png";
 
 $horizontally-center: 0 auto;
 $vertically-center: auto 0;
@@ -487,7 +487,7 @@ a{
 div.about{
   padding: 70px 0;
   border-bottom: 2px solid #f2f2f2;
-  background-image: url(https://fundinno.com/assets/views/pages/index/agreement-business-businessmen-125d7b677a7a458f3d54357c248d9e33cb4aa6f0924332a35697597bc3dab6aa.png);
+  background-image: url("/rsc/img/26.webp");
     background-size: cover;
 
 }
@@ -856,7 +856,7 @@ img.media.company{
 /*crowd funding*/
 div.crowd-funding{
   @extend div.about;
-  background-image: url(https://fundinno.com/assets/views/pages/index/businessman-smartphone-e8660269950c6e76124c4f91901d7c42650e778ac2eafe82557506b62b4c718f.png);
+  background-image: url("/rsc/img/25.webp");
 }
 .crowd-funding-left-container{
   width: 635px;
