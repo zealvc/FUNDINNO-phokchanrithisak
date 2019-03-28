@@ -1,4 +1,6 @@
 @import "style";
 @media #{$desktop}{
-
+    .navbar{
+        background-color: rgb(231, 34, 8);
+    }
 }

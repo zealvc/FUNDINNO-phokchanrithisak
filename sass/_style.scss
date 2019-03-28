@@ -2,10 +2,10 @@
 @import 'css_reset';
 @import 'carousel';
 /*> Media query responsive*/
-$phone: "(min-width: 120px) and (max-width: 767px)";
-$tablet: "(min-width: 768px) and (max-width: 1366px)";
-$xl-tablet: "(min-width: 991.98px) and (max-width: 1366px)";
-$desktop: "(min-width: 1366.1px)";
+$phone: "(max-width: 767px)";
+$tablet: "(min-width:768px) and (max-width:1023px)";
+$xl-tablet: "(min-width:1024px) and (max-width:1365px)";
+$desktop: "(min-width: 1366px)";
 /*> SaSS*/
 /*variable*/
 /*color*/
@@ -142,9 +142,18 @@ a{
 }
 .main-carousel-slideshow{
   height: 504px;
-
-
 }
+.main-carousel-slideshow,
+.main-carousel-slideshow-dot{
+  display: inline-block;
+}
+.main-carousel-slideshow-dot{
+  background: transparent;
+  padding-left: 600px;
+}
+
+
+
 @mixin full-screen-size($img-url){
   width: 100% !important;
   height: 100% !important;
@@ -212,6 +221,10 @@ a{
   }
 .carouselItem1-container-btn span{
   color: $color-primary;
+}
+.slideshow-container,
+.tallies{
+  clear: both;
 }
 .tallies{
   text-align: center;
@@ -358,7 +371,7 @@ h2.mb-30{
 .company{
   height: 4.92rem;
   padding: 0 1.538rem;
-  margin-bottom: 1.538rem;
+
 }
 .media {
   display: flex;
@@ -381,8 +394,13 @@ img.media.company{
 
 }
 .pickup-body-card-1-body-mainContent{
-  padding: 10px 27.684px;
-  
+  padding: 10px 15px;
+  color: rgb(204, 240, 0) !important;
+  text-decoration: none !important;
+}
+.pickup-body-card-1-body-mainContent a{
+  color: #242A5E;
+  text-decoration: none;
 }
 .pickup-body-card-1-body-mainContent{
   color: #242A5E;
@@ -473,7 +491,7 @@ img.media.company{
 }
 .progress {
   display: flex;
-  height: 1rem;
+  height: 0.25rem;
   overflow: hidden;
   font-size: 0.75rem;
   background-color: #dee2e6;
