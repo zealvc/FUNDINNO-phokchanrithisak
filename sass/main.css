@@ -215,9 +215,9 @@ a {
   height: 43.44px;
   max-width: 1140px;
   /*right gap*/
-  -webkit-box-pack: justify !important;
-      -ms-flex-pack: justify !important;
-          justify-content: space-between !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .top-navbar__left {
@@ -318,8 +318,8 @@ a {
 
 .carouselItem4-right-body-special-container-left {
   background-image: url("/rsc/img/12.webp");
-  width: 40px !important;
-  height: 40px !important;
+  width: 40px;
+  height: 40px;
   background-size: cover;
 }
 
@@ -335,54 +335,54 @@ a {
 
 /**/
 .carouselItem1-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/3.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
   color: #fff;
 }
 
 .carouselItem2-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/21.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
   color: #fff;
 }
 
 .carouselItem3-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/22.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
 }
 
 .carouselItem4-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/23.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
 }
 
 .carouselItem5-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/22.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
 }
 
 .carouselItem1-container-wrap {
-  text-align: center !important;
+  text-align: center;
 }
 
 .carouselItem1-container-wrap-vertically-center {
@@ -481,18 +481,18 @@ a {
 .carouselItem4-right-body-special-container-left,
 .carouselItem4-right-body-special-container-right {
   display: inline-block;
-  margin: auto 0 !important;
+  margin: auto 0;
   vertical-align: middle;
 }
 
 .carouselItem4-right-body-special-container,
 .carouselItem4-btn {
-  clear: both !important;
+  clear: both;
 }
 
 .carouselItem5-position-right-body,
 .carouselItem5-btn {
-  clear: both !important;
+  clear: both;
 }
 
 .carouselItem5-position-right-body {
@@ -500,17 +500,17 @@ a {
 }
 
 .carouselItem4-btn-link {
-  padding-left: 80px !important;
-  padding-right: 80px !important;
-  background-color: #fff !important;
-  color: #000 !important;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #fff;
+  color: #000;
 }
 
 .carouselItem5-btn-link {
-  padding-left: 80px !important;
-  padding-right: 80px !important;
-  background-color: #fff !important;
-  color: #000 !important;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #fff;
+  color: #000;
 }
 
 .carouselItem4-right-body-special-container {
@@ -703,7 +703,7 @@ h3.mb-15 {
 }
 
 .mb-15 {
-  margin-bottom: 15px !important;
+  margin-bottom: 15px;
 }
 
 .about__btn, .crowd-funding-button {
@@ -773,7 +773,7 @@ h2.mb-30 {
 }
 
 .text-center {
-  text-align: center !important;
+  text-align: center;
 }
 
 .text-primary {
@@ -845,8 +845,7 @@ img.media.company {
 
 .pickup-body-card-1-body-mainContent {
   padding: 10px 15px;
-  color: #ccf000 !important;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .pickup-body-card-1-body-mainContent a {
@@ -897,7 +896,7 @@ img.media.company {
 }
 
 .float-right {
-  float: right !important;
+  float: right;
 }
 
 .solicit {
@@ -925,9 +924,9 @@ img.media.company {
 }
 
 .d-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .projects.card > .card-body > .indicator .card-progress-wrapper i, .companies .projects.company-card > .card-body > .indicator .card-progress-wrapper i {
@@ -1079,7 +1078,7 @@ img.media.company {
 }
 
 .round-circle {
-  border-radius: 50% !important;
+  border-radius: 50%;
 }
 
 .case-study-pf,
@@ -1630,9 +1629,9 @@ a {
   height: 43.44px;
   max-width: 1140px;
   /*right gap*/
-  -webkit-box-pack: justify !important;
-      -ms-flex-pack: justify !important;
-          justify-content: space-between !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .top-navbar__left {
@@ -1733,8 +1732,8 @@ a {
 
 .carouselItem4-right-body-special-container-left {
   background-image: url("/rsc/img/12.webp");
-  width: 40px !important;
-  height: 40px !important;
+  width: 40px;
+  height: 40px;
   background-size: cover;
 }
 
@@ -1750,54 +1749,54 @@ a {
 
 /**/
 .carouselItem1-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/3.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
   color: #fff;
 }
 
 .carouselItem2-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/21.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
   color: #fff;
 }
 
 .carouselItem3-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/22.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
 }
 
 .carouselItem4-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/23.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
 }
 
 .carouselItem5-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/22.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
 }
 
 .carouselItem1-container-wrap {
-  text-align: center !important;
+  text-align: center;
 }
 
 .carouselItem1-container-wrap-vertically-center {
@@ -1896,18 +1895,18 @@ a {
 .carouselItem4-right-body-special-container-left,
 .carouselItem4-right-body-special-container-right {
   display: inline-block;
-  margin: auto 0 !important;
+  margin: auto 0;
   vertical-align: middle;
 }
 
 .carouselItem4-right-body-special-container,
 .carouselItem4-btn {
-  clear: both !important;
+  clear: both;
 }
 
 .carouselItem5-position-right-body,
 .carouselItem5-btn {
-  clear: both !important;
+  clear: both;
 }
 
 .carouselItem5-position-right-body {
@@ -1915,17 +1914,17 @@ a {
 }
 
 .carouselItem4-btn-link {
-  padding-left: 80px !important;
-  padding-right: 80px !important;
-  background-color: #fff !important;
-  color: #000 !important;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #fff;
+  color: #000;
 }
 
 .carouselItem5-btn-link {
-  padding-left: 80px !important;
-  padding-right: 80px !important;
-  background-color: #fff !important;
-  color: #000 !important;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #fff;
+  color: #000;
 }
 
 .carouselItem4-right-body-special-container {
@@ -2118,7 +2117,7 @@ h3.mb-15 {
 }
 
 .mb-15 {
-  margin-bottom: 15px !important;
+  margin-bottom: 15px;
 }
 
 .about__btn, .crowd-funding-button {
@@ -2188,7 +2187,7 @@ h2.mb-30 {
 }
 
 .text-center {
-  text-align: center !important;
+  text-align: center;
 }
 
 .text-primary {
@@ -2260,8 +2259,7 @@ img.media.company {
 
 .pickup-body-card-1-body-mainContent {
   padding: 10px 15px;
-  color: #ccf000 !important;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .pickup-body-card-1-body-mainContent a {
@@ -2312,7 +2310,7 @@ img.media.company {
 }
 
 .float-right {
-  float: right !important;
+  float: right;
 }
 
 .solicit {
@@ -2340,9 +2338,9 @@ img.media.company {
 }
 
 .d-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .projects.card > .card-body > .indicator .card-progress-wrapper i, .companies .projects.company-card > .card-body > .indicator .card-progress-wrapper i {
@@ -2494,7 +2492,7 @@ img.media.company {
 }
 
 .round-circle {
-  border-radius: 50% !important;
+  border-radius: 50%;
 }
 
 .case-study-pf,
@@ -3045,9 +3043,9 @@ a {
   height: 43.44px;
   max-width: 1140px;
   /*right gap*/
-  -webkit-box-pack: justify !important;
-      -ms-flex-pack: justify !important;
-          justify-content: space-between !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .top-navbar__left {
@@ -3148,8 +3146,8 @@ a {
 
 .carouselItem4-right-body-special-container-left {
   background-image: url("/rsc/img/12.webp");
-  width: 40px !important;
-  height: 40px !important;
+  width: 40px;
+  height: 40px;
   background-size: cover;
 }
 
@@ -3165,54 +3163,54 @@ a {
 
 /**/
 .carouselItem1-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/3.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
   color: #fff;
 }
 
 .carouselItem2-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/21.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
   color: #fff;
 }
 
 .carouselItem3-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/22.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
 }
 
 .carouselItem4-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/23.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
 }
 
 .carouselItem5-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/22.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
 }
 
 .carouselItem1-container-wrap {
-  text-align: center !important;
+  text-align: center;
 }
 
 .carouselItem1-container-wrap-vertically-center {
@@ -3311,18 +3309,18 @@ a {
 .carouselItem4-right-body-special-container-left,
 .carouselItem4-right-body-special-container-right {
   display: inline-block;
-  margin: auto 0 !important;
+  margin: auto 0;
   vertical-align: middle;
 }
 
 .carouselItem4-right-body-special-container,
 .carouselItem4-btn {
-  clear: both !important;
+  clear: both;
 }
 
 .carouselItem5-position-right-body,
 .carouselItem5-btn {
-  clear: both !important;
+  clear: both;
 }
 
 .carouselItem5-position-right-body {
@@ -3330,17 +3328,17 @@ a {
 }
 
 .carouselItem4-btn-link {
-  padding-left: 80px !important;
-  padding-right: 80px !important;
-  background-color: #fff !important;
-  color: #000 !important;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #fff;
+  color: #000;
 }
 
 .carouselItem5-btn-link {
-  padding-left: 80px !important;
-  padding-right: 80px !important;
-  background-color: #fff !important;
-  color: #000 !important;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #fff;
+  color: #000;
 }
 
 .carouselItem4-right-body-special-container {
@@ -3533,7 +3531,7 @@ h3.mb-15 {
 }
 
 .mb-15 {
-  margin-bottom: 15px !important;
+  margin-bottom: 15px;
 }
 
 .about__btn, .crowd-funding-button {
@@ -3603,7 +3601,7 @@ h2.mb-30 {
 }
 
 .text-center {
-  text-align: center !important;
+  text-align: center;
 }
 
 .text-primary {
@@ -3675,8 +3673,7 @@ img.media.company {
 
 .pickup-body-card-1-body-mainContent {
   padding: 10px 15px;
-  color: #ccf000 !important;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .pickup-body-card-1-body-mainContent a {
@@ -3727,7 +3724,7 @@ img.media.company {
 }
 
 .float-right {
-  float: right !important;
+  float: right;
 }
 
 .solicit {
@@ -3755,9 +3752,9 @@ img.media.company {
 }
 
 .d-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .projects.card > .card-body > .indicator .card-progress-wrapper i, .companies .projects.company-card > .card-body > .indicator .card-progress-wrapper i {
@@ -3909,7 +3906,7 @@ img.media.company {
 }
 
 .round-circle {
-  border-radius: 50% !important;
+  border-radius: 50%;
 }
 
 .case-study-pf,
@@ -4265,9 +4262,124 @@ hr {
     padding-right: 40px !important;
   }
   .carouselItem2-btn-link {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
+  .carouselItem3-container-division {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .carouselItem3-division__position_left {
+    width: 525px !important;
+    height: 325px !important;
+  }
+  .carouselItem3-division-position-right {
+    width: 460px !important;
+    height: 325px !important;
+  }
+  .carousel3-middle-top-right {
+    padding-left: 230px !important;
+  }
+  .carousel3-middle-right {
+    padding-left: 310px !important;
+  }
+  /*carousel 4*/
+  .carouselItem4-container-wrap {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .carouselItem4-division-position-right {
+    padding-left: 15px !important;
+    width: 400px !important;
+  }
+  .carouselItem4-division-position-right-container {
+    width: 490px !important;
+  }
+  .carouselItem4-container-division {
+    width: 990px !important;
+  }
+  .carouselItem4-division__position_left {
+    width: 400px !important;
+  }
+  /*carousel 5*/
+  .carouselItem5-container-wrap {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .carouselItem5-division-position-right {
+    padding-left: 15px !important;
+    width: 400px !important;
+  }
+  .carouselItem5-division-position-right-container {
+    width: 490px !important;
+  }
+  .carouselItem5-container-division {
+    width: 990px !important;
+  }
+  .carouselItem5-division__position_left {
+    width: 400px !important;
+  }
+  /*dot*/
+  .main-carousel-slideshow-dot {
+    padding-left: 450px !important;
+  }
+  .about-text-container {
+    padding-left: 390px;
+  }
+  .about-text-desc {
+    width: 520px;
+  }
+  /*card section*/
+  .pickup-contianer {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  .pickup-card-wrapper {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    width: 330px !important;
+  }
+  .card-img-top {
+    width: 310px !important;
+  }
+  /*case study section*/
+  .case-study-row-left {
+    padding-left: 0px !important;
+  }
+  .case-study-dialog-container {
+    width: 800px !important;
+  }
+  .case-study-pf-img-left {
+    margin-left: 25px !important;
+  }
+  .case-study-row-right {
+    padding-left: 110px !important;
+  }
+  /*crowd-funding section*/
+  .crowd-funding-left-container {
+    padding-left: 50px !important;
+  }
+  .crowd-funding-description {
+    width: 560px !important;
+  }
+  /*news section*/
+  .new-card1 {
+    margin-left: 12px !important;
+    width: 1000px !important;
+  }
+  .new-header-title {
+    padding-right: 320px !important;
+  }
+  /*logo company*/
+  .posting-container-t {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  /*footer*/
+  .footer-1-top-container-top {
+    width: 1000px !important;
+  }
+  /*end of device media*/
 }
 
 /*partial SaSS*/
@@ -4487,9 +4599,9 @@ a {
   height: 43.44px;
   max-width: 1140px;
   /*right gap*/
-  -webkit-box-pack: justify !important;
-      -ms-flex-pack: justify !important;
-          justify-content: space-between !important;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .top-navbar__left {
@@ -4590,8 +4702,8 @@ a {
 
 .carouselItem4-right-body-special-container-left {
   background-image: url("/rsc/img/12.webp");
-  width: 40px !important;
-  height: 40px !important;
+  width: 40px;
+  height: 40px;
   background-size: cover;
 }
 
@@ -4607,54 +4719,54 @@ a {
 
 /**/
 .carouselItem1-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/3.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
   color: #fff;
 }
 
 .carouselItem2-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/21.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
   color: #fff;
 }
 
 .carouselItem3-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/22.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
 }
 
 .carouselItem4-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/23.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
 }
 
 .carouselItem5-container {
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: url("/rsc/img/22.webp");
-  width: 1350px !important;
-  height: 504px !important;
+  width: 1350px;
+  height: 504px;
 }
 
 .carouselItem1-container-wrap {
-  text-align: center !important;
+  text-align: center;
 }
 
 .carouselItem1-container-wrap-vertically-center {
@@ -4753,18 +4865,18 @@ a {
 .carouselItem4-right-body-special-container-left,
 .carouselItem4-right-body-special-container-right {
   display: inline-block;
-  margin: auto 0 !important;
+  margin: auto 0;
   vertical-align: middle;
 }
 
 .carouselItem4-right-body-special-container,
 .carouselItem4-btn {
-  clear: both !important;
+  clear: both;
 }
 
 .carouselItem5-position-right-body,
 .carouselItem5-btn {
-  clear: both !important;
+  clear: both;
 }
 
 .carouselItem5-position-right-body {
@@ -4772,17 +4884,17 @@ a {
 }
 
 .carouselItem4-btn-link {
-  padding-left: 80px !important;
-  padding-right: 80px !important;
-  background-color: #fff !important;
-  color: #000 !important;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #fff;
+  color: #000;
 }
 
 .carouselItem5-btn-link {
-  padding-left: 80px !important;
-  padding-right: 80px !important;
-  background-color: #fff !important;
-  color: #000 !important;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #fff;
+  color: #000;
 }
 
 .carouselItem4-right-body-special-container {
@@ -4975,7 +5087,7 @@ h3.mb-15 {
 }
 
 .mb-15 {
-  margin-bottom: 15px !important;
+  margin-bottom: 15px;
 }
 
 .about__btn, .crowd-funding-button {
@@ -5045,7 +5157,7 @@ h2.mb-30 {
 }
 
 .text-center {
-  text-align: center !important;
+  text-align: center;
 }
 
 .text-primary {
@@ -5117,8 +5229,7 @@ img.media.company {
 
 .pickup-body-card-1-body-mainContent {
   padding: 10px 15px;
-  color: #ccf000 !important;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .pickup-body-card-1-body-mainContent a {
@@ -5169,7 +5280,7 @@ img.media.company {
 }
 
 .float-right {
-  float: right !important;
+  float: right;
 }
 
 .solicit {
@@ -5197,9 +5308,9 @@ img.media.company {
 }
 
 .d-flex {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .projects.card > .card-body > .indicator .card-progress-wrapper i, .companies .projects.company-card > .card-body > .indicator .card-progress-wrapper i {
@@ -5351,7 +5462,7 @@ img.media.company {
 }
 
 .round-circle {
-  border-radius: 50% !important;
+  border-radius: 50%;
 }
 
 .case-study-pf,
