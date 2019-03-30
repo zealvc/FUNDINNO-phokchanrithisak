@@ -1412,6 +1412,19 @@ hr {
   display: none;
 }
 
+@media only screen and (max-width: 767px) {
+  .toptitle {
+    font-size: 10px !important;
+  }
+  .top-navbar {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .nav-link, .nav-link-modified {
+    font-size: 5px !important;
+  }
+}
+
 /*partial SaSS*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -2824,6 +2837,184 @@ hr {
 /*HIDE SECTION*/
 .hide {
   display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .carouselItem1-container-text {
+    width: 770px !important;
+  }
+  .carouselItem1-container-btn {
+    margin-left: 255px !important;
+  }
+  .carouselItem5-container-wrap {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .carouselItem1-container-wrap {
+    width: 1050px;
+    height: 393px;
+  }
+  .carouselItem2-division__position_left {
+    width: 560px;
+    height: 315px;
+  }
+  .carouselItem2-division-position-right {
+    width: 382px;
+    height: 315px;
+  }
+  .carouselItem2-container-division {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .carouselItem2-btn-link {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .carouselItem3-container-division {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .carouselItem3-division__position_left {
+    width: 525px;
+    height: 325px;
+  }
+  .carouselItem3-division-position-right {
+    width: 460px;
+    height: 325px;
+  }
+  .carousel3-middle-top-right {
+    padding-left: 230px;
+  }
+  .carousel3-middle-right {
+    padding-left: 310px;
+  }
+  /*carousel 4*/
+  .carouselItem4-container-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .carouselItem4-division-position-right {
+    padding-left: 15px;
+    width: 400px;
+  }
+  .carouselItem4-division-position-right-container {
+    width: 490px !important;
+  }
+  .carouselItem4-container-division {
+    width: 990px !important;
+  }
+  .carouselItem4-division__position_left {
+    width: 400px !important;
+  }
+  /*carousel 5*/
+  .carouselItem5-container-wrap {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .carouselItem5-division-position-right {
+    padding-left: 15px !important;
+    width: 400px !important;
+  }
+  .carouselItem5-division-position-right-container {
+    width: 490px !important;
+  }
+  .carouselItem5-container-division {
+    width: 990px !important;
+  }
+  .carouselItem5-division__position_left {
+    width: 400px !important;
+  }
+  /*dot*/
+  .main-carousel-slideshow-dot {
+    padding-left: 305px !important;
+  }
+  .about-text-container {
+    padding-left: 250px !important;
+  }
+  .about-text-desc {
+    width: 400px !important;
+    line-height: 1.5rem !important;
+  }
+  /*card section*/
+  .about-text-only {
+    width: 400px !important;
+  }
+  /*card*/
+  .pickup-contianer {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+  .pickup-card-wrapper {
+    margin-bottom: 90px !important;
+  }
+  /*Dialog*/
+  .case-study-dialog-container {
+    width: 560px !important;
+    height: 290px !important;
+  }
+  .case-study-row-left {
+    padding-left: 20px !important;
+  }
+  .csp1 {
+    margin-bottom: 135px !important;
+  }
+  .csp2 {
+    margin-bottom: 195px !important;
+  }
+  .csp3 {
+    margin-bottom: 195px !important;
+  }
+  .csp4 {
+    margin-bottom: 170px !important;
+  }
+  .csp5 {
+    margin-bottom: 135px !important;
+  }
+  /**/
+  .crowd-funding-left-container {
+    padding-left: 50px !important;
+  }
+  /**/
+  .case-study-row-right {
+    padding-left: 105px !important;
+  }
+  .case-study-pf-img-right {
+    margin-bottom: 195px;
+  }
+  .new-body-container {
+    margin-left: 35px !important;
+  }
+  .new-card1 {
+    width: 700px !important;
+  }
+  .new-card1 {
+    margin-left: 3px !important;
+  }
+  .new-header-title {
+    margin-right: 35px !important;
+  }
+  /*news*/
+  .new-header {
+    padding-left: 230px !important;
+  }
+  .new-header-title {
+    padding-right: 150px !important;
+  }
+  /*LOGO*/
+  .posting-container-t {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  /*footer*/
+  .footer-1-top-container-top {
+    width: 640px !important;
+    height: 290px !important;
+  }
+  .main-footer {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+  }
+  /*end of device media*/
 }
 
 /*partial SaSS*/
@@ -4377,8 +4568,12 @@ hr {
   }
   /*footer*/
   .footer-1-top-container-top {
-    width: 1000px !important;
+    width: 950px !important;
     height: 220px !important;
+  }
+  .main-footer {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
   }
   /*end of device media*/
 }
