@@ -1423,6 +1423,32 @@ hr {
   .nav-link, .nav-link-modified {
     font-size: 5px !important;
   }
+  .top-navbar-container {
+    padding: 0 !important;
+    margin-left: 8px !important;
+  }
+  .bottom-navbar {
+    padding: 5px 0 !important;
+  }
+  .title img {
+    width: 155px !important;
+  }
+  .bottom-navbar-container__right {
+    margin-right: 8px !important;
+  }
+  .carouselItem1-container-text_subtitle {
+    width: 250px !important;
+    font-size: 10px !important;
+    margin: 0 6       0px !important;
+  }
+  .carouselItem1-container-text_title {
+    width: 300px !important;
+    font-size: 25px !important;
+    margin: 0 35px !important;
+  }
+  .carouselItem1-container-btn {
+    margin: 0 50px !important;
+  }
 }
 
 /*partial SaSS*/
