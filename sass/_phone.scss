@@ -28,20 +28,108 @@
   {
       margin-right: 8px !important
   }
+
   .carouselItem1-container-text_subtitle
   {
       width: 250px !important;
       font-size: 10px !important;
-      margin: 0 6       0px !important;
+      margin: 0 60px !important;
+      padding-bottom: 20px !important;
   }
   .carouselItem1-container-text_title
   {
       width: 300px !important;
-      font-size: 25px !important;
+      font-size: 50px !important;
       margin: 0 35px !important;
+      line-height: 2.9rem !important;
+      padding-bottom: 20px !important;
   }
   .carouselItem1-container-btn
   {
       margin: 0 50px !important;
   }
+  /*dots*/
+  .main-carousel-slideshow-dot{
+      padding-left:105px !important;
+  }
+  /*IPO*/
+  .about-text-header,
+  .about-text-desc{
+      width: 300px !important;
+  }
+  .about__btn{
+      padding-left: 30px !important;
+  }
+  /*PICKUP*/
+  .pickup-contianer{
+      margin-left: 5px !important;
+      margin-right: 0px !important;
+  }
+  .pickup-card-wrapper{
+      margin-top: 30px !important;
+      margin-bottom: 30px !important;
+  }
+  .pickup-footer{
+      padding-top: 80px !important;
+  }
+  /*Case study section*/
+  .case-study-row-left{
+    padding-left: 10px !important;
+  }
+  .case-study-dialog-container{
+      width: 340px !important;
+      height: 410px !important;
+  }
+  .case-study-pf-img-left{
+      margin-right: 0px !important;
+      margin-bottom: 0px !important;
+      width: 150px !important;
+      height: 150px !important;
+  }
+  .case-study-pf{
+      padding-left: 90px !important;
+  }
+  .case-study-row-right{
+      padding-left: 10px !important;
+  }
+  .case-study-pf-img-right{
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+    width: 150px !important;
+    }
+    /*CREOWD FUNDING*/
+    .crowd-funding-left-container{
+        padding-left:30px !important;
+        padding-right:30px !important;
+    }
+    .crowd-funding-title-first,
+    .crowd-funding-title-middle,
+    .crowd-funding-title-last{
+        font-size: 1.3rem !important;
+        text-align: center !important;
+    }
+    .crowd-funding-title{
+        width: 300px !important;
+    }
+    .crowd-funding-description{
+        width: 300px !important;
+    }
+    .crowd-funding-button{
+        margin-left: 20px !important;
+    }
+    /*CARD*/
+    .new-card1{
+        margin-left: 10px !important;
+        width: 340px !important;
+        height: 257px !important;
+    }
+    /*footer*/
+    .main-footer{
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+    .footer-1-top-container-top{
+        width: 310px !important;
+        height: 550px !important;
+    }
 }
